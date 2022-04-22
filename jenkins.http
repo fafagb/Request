@@ -1,0 +1,10 @@
+
+@user="admin"
+
+@password="hex@jenkins1"
+
+###
+curl -u {{user}}:{{password}} http://192.168.0.218:28080/job/feature_ExerciseDomainServer_publish/build?token=gbtoken
+
+###
+curl -u {{user}}:{{password}} http://192.168.0.218:28080/job/feature_ExerciseWebApiServer_publish/build?token=gbtoken

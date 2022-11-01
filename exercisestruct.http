@@ -1,178 +1,187 @@
 
 ### get请求数组
-http://hz.hexfuture.cn/routeapi/Exercise/GetPictureExercises?ssotoken=871CB30B5866A832DD6EF494BC5DE39A3E832C63CE3F107287F3C04143EA2C0914FD35F5073E813A8943E42241F2EFFD4C6DFBE625DEBAC74E3B375D3472587ACCB6A9216EFB6E714806B9D92752D087CF5B7CB881E90364EADA4CCB78BE13451DA71222A2098753B52EC104DD17EC12&exerciseids=3032246947293&exerciseids=3032246947292
+http: //{{host}}/Exercise/GetPictureExercises?ssotoken=871CB30B5866A832DD6EF494BC5DE39A3E832C63CE3F107287F3C04143EA2C0914FD35F5073E813A8943E42241F2EFFD4C6DFBE625DEBAC74E3B375D3472587ACCB6A9216EFB6E714806B9D92752D087CF5B7CB881E90364EADA4CCB78BE13451DA71222A2098753B52EC104DD17EC12&exerciseids=3032246947293&exerciseids=3032246947292
 version:qfmao
 
 
 ### 获取整张图
-http://hz.hexfuture.cn/routeapi/Exercise/GetExercisePDF?ssotoken=871CB30B5866A832DD6EF494BC5DE39A3E832C63CE3F107287F3C04143EA2C0914FD35F5073E813A8943E42241F2EFFD4C6DFBE625DEBAC74E3B375D3472587ACCB6A9216EFB6E714806B9D92752D087CF5B7CB881E90364EADA4CCB78BE13451DA71222A2098753B52EC104DD17EC12&exerciseId=3032246947322
-version:qfmao
-
-###
-http://localhost:10005/Exercise/GetExercisePDF?ssotoken=871CB30B5866A832DD6EF494BC5DE39A3E832C63CE3F107287F3C04143EA2C0914FD35F5073E813A8943E42241F2EFFD4C6DFBE625DEBAC74E3B375D3472587ACCB6A9216EFB6E714806B9D92752D087CF5B7CB881E90364EADA4CCB78BE13451DA71222A2098753B52EC104DD17EC12&exerciseId=3032246947292
+http: //{{host}}/Exercise/GetExercisePDF?ssotoken=871CB30B5866A832DD6EF494BC5DE39A3E832C63CE3F107287F3C04143EA2C0914FD35F5073E813A8943E42241F2EFFD4C6DFBE625DEBAC74E3B375D3472587ACCB6A9216EFB6E714806B9D92752D087CF5B7CB881E90364EADA4CCB78BE13451DA71222A2098753B52EC104DD17EC12&exerciseId=3032246947322
 
 
 ###
-http://localhost:10005/Exercise/GetExerciseAliasType?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
+http: //{{host}}/Exercise/GetExercisePDF?ssotoken=871CB30B5866A832DD6EF494BC5DE39A3E832C63CE3F107287F3C04143EA2C0914FD35F5073E813A8943E42241F2EFFD4C6DFBE625DEBAC74E3B375D3472587ACCB6A9216EFB6E714806B9D92752D087CF5B7CB881E90364EADA4CCB78BE13451DA71222A2098753B52EC104DD17EC12&exerciseId=3032246947292
+
+
+###
+http: //{{host}}/Exercise/GetExerciseAliasType?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
 
 ###  选择题
-Post  http://localhost:10005/Exercise/SaveStructExercise?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
+Post  http: //{{host}}/Exercise/SaveStructExercise?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
 Content-Type: application/json
 
 {
-"ExerciseId": "123",
-"ExerciseAliasTypeId": "3006478659715",
-"ExerciseTypeId": "1",
-"ExerciseAliasTypeName": "111",
-"ExerciseTypeName": "单选题",
-"ExerciseSubject": "111",
-"ExerciseAliasTypeName": "111",
-"Option": [               
+    "ExerciseId": "123",
+    "ExerciseAliasTypeId": "3006478659715",
+    "ExerciseTypeId": "1",
+    "ExerciseAliasTypeName": "111",
+    "ExerciseTypeName": "单选题",
+    "ExerciseSubject": "111",
+    "ExerciseAliasTypeName": "111",
+    "Option": [               
                       {
-                           "OptionType": "0",  //0文本 1图片
+                           "OptionType": "0", //0文本 1图片
                             "OptionContent": "递进2"
-                        },
-                       {
-                            "OptionType": "1" , 
+                        
+        },
+        {
+                            "OptionType": "1", 
                             "OptionContent": "图片Id"
-                        }
-
- ],
-"Answer":"0100"
- 
+                        
+        }
+    ],
+    "Answer": "0100"
 }
 
 
 
 ###  判断题
-Post  http://localhost:10005/Exercise/SaveStructExercise?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
+Post  http: //{{host}}/Exercise/SaveStructExercise?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
 Content-Type: application/json
 
 {
-"ExerciseId": "127",
-"ExerciseAliasTypeId": "3006478659715",
-"ExerciseTypeId": "7",
-"ExerciseAliasTypeName": "111",
-"ExerciseTypeName": "判断题",
-"ExerciseSubject": "111",
-"ExerciseAliasTypeName": "111",
-"Answer":0
- 
+    "ExerciseId": "127",
+    "ExerciseAliasTypeId": "3006478659715",
+    "ExerciseTypeId": "7",
+    "ExerciseAliasTypeName": "111",
+    "ExerciseTypeName": "判断题",
+    "ExerciseSubject": "111",
+    "ExerciseAliasTypeName": "111",
+    "Answer": 0
 }
 
 
 ###  填空题
-Post  http://localhost:10005/Exercise/SaveStructExercise?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
+Post  http: //{{host}}/Exercise/SaveStructExercise?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
 Content-Type: application/json
 
 {
-"ExerciseId": "128",
-"ExerciseAliasTypeId": "3006478659715",
-"ExerciseTypeId": "2",
-"ExerciseAliasTypeName": "111",
-"ExerciseTypeName": "填空题",
-"ExerciseSubject": "111",
-"ExerciseAliasTypeName": "111",
-"Answer":[                {
+    "ExerciseId": "128",
+    "ExerciseAliasTypeId": "3006478659715",
+    "ExerciseTypeId": "2",
+    "ExerciseAliasTypeName": "111",
+    "ExerciseTypeName": "填空题",
+    "ExerciseSubject": "111",
+    "ExerciseAliasTypeName": "111",
+    "Answer": [                {
                  
                     "AnswerList": [
                         {
-                            "AnswerType": "0",  //0文本 1图片
+                            "AnswerType": "0", //0文本 1图片
                             "Answer": "递进1"
-                        },
+                        
+                },
                        {
-                            "AnswerType": "1" , //0文本 1图片
+                            "AnswerType": "1", //0文本 1图片
                             "Answer": "图片Id"
-                        }
+                        
+                }
 
-                    ]
+                    
+            ]
                   
-                },
+                
+        },
                 {
                
                     "AnswerList": [
                         {
-                           "AnswerType": "0" , //0文本 1图片
+                           "AnswerType": "0", //0文本 1图片
                             "Answer": "递进2"
-                        },
-                       {
-                            "AnswerType": "1" , //0文本 1图片
+                        
+                },
+                {
+                            "AnswerType": "1", //0文本 1图片
                             "Answer": "图片Id"
-                        }
+                        
+                }
 
-                    ]
+                    
+            ]
                   
-               }
- ]
- 
+       
+        }
+    ]
 }
 
 
 
 
 ###  组合题
-Post  http://localhost:10005/Exercise/SaveStructExercise?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
+Post  http: //{{host}}/Exercise/SaveStructExercise?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
 Content-Type: application/json
 
 {
-"ExerciseId": "111",
-"ExerciseAliasTypeId": "863288426577",
-"ExerciseTypeId": "1",
-"ExerciseAliasTypeName": "111",
-"ExerciseTypeName": "组合题",
-"ExerciseSubject": "111",
-"ExerciseAliasTypeName": "111",
-"Option": [{"ExerciseId": "222",
-"ExerciseAliasTypeId": "111",
-"ExerciseTypeId": "111",
-"ExerciseAliasTypeName": "111",
-"ExerciseTypeName": "组合题",
-"ExerciseSubject": "111",
-"ExerciseAliasTypeName": "111",
-
- "Option": [               
+    "ExerciseId": "111",
+    "ExerciseAliasTypeId": "863288426577",
+    "ExerciseTypeId": "1",
+    "ExerciseAliasTypeName": "111",
+    "ExerciseTypeName": "组合题",
+    "ExerciseSubject": "111",
+    "ExerciseAliasTypeName": "111",
+    "Option": [
+        {
+            "ExerciseId": "222",
+            "ExerciseAliasTypeId": "111",
+            "ExerciseTypeId": "111",
+            "ExerciseAliasTypeName": "111",
+            "ExerciseTypeName": "组合题",
+            "ExerciseSubject": "111",
+            "ExerciseAliasTypeName": "111",
+            "Option": [               
                       {
-                           "OptionType": "0",  //0文本 1图片
+                           "OptionType": "0", //0文本 1图片
                             "OptionContent": "递进2"
-                        },
-                       {
-                            "OptionType": "1" , 
+                        
+                },
+                {
+                            "OptionType": "1", 
                             "OptionContent": "图片Id"
-                        }
-
- ],
-"Answer":"0100"
-}],
-
- 
+                        
+                }
+            ],
+            "Answer": "0100"
+        }
+    ],
 }
 
 
 
 
 ###  选择填空题
-Post  http://localhost:10005/Exercise/SaveStructExercise?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
+Post  http: //{{host}}/Exercise/SaveStructExercise?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
 Content-Type: application/json
 
 {
-"ExerciseId": "8",
-"ExerciseAliasTypeId": "3006478659715",
-"ExerciseTypeId": "8",
-"ExerciseAliasTypeName": "111",
-"ExerciseTypeName": "选择填空题",
-"ExerciseSubject": "111",
-"ExerciseAliasTypeName": "111",
-"Option": [                {
+    "ExerciseId": "8",
+    "ExerciseAliasTypeId": "3006478659715",
+    "ExerciseTypeId": "8",
+    "ExerciseAliasTypeName": "111",
+    "ExerciseTypeName": "选择填空题",
+    "ExerciseSubject": "111",
+    "ExerciseAliasTypeName": "111",
+    "Option": [                {
                  
                     "OptionList": [
                         
                             "递进1",
                            "递进2"
 
-                    ],
+                    
+            ],
                "Answer": "01"
                   
-                },
+                
+        },
                
  {
                  
@@ -181,40 +190,39 @@ Content-Type: application/json
                             "递进1",
                            "递进2"
 
-                    ],
+                    
+            ],
                "Answer": "02"
                   
-                }
-
- ]
-
- 
+                
+        }
+    ]
 }
 
 
 
 ###  简答题
-Post  http://localhost:10005/Exercise/SaveStructExercise?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
+Post  http: //{{host}}/Exercise/SaveStructExercise?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
 Content-Type: application/json
 
 {
-"ExerciseId": "13",
-"ExerciseAliasTypeId": "3006478659715",
-"ExerciseTypeId": "13",
-"ExerciseAliasTypeName": "111",
-"ExerciseTypeName": "简答题",
-"ExerciseSubject": "111",
-"ExerciseAliasTypeName": "111",
-"Answer": {
-                           "AnswerType": "0" , //0文本 1图片
-                            "AnswerContent": "递进2"    //AnswerType=0 AnswerContent传字符串                                                                                         //AnswerType=1 AnswerContent传数组 
-          }
- 
+    "ExerciseId": "13",
+    "ExerciseAliasTypeId": "3006478659715",
+    "ExerciseTypeId": "13",
+    "ExerciseAliasTypeName": "111",
+    "ExerciseTypeName": "简答题",
+    "ExerciseSubject": "111",
+    "ExerciseAliasTypeName": "111",
+    "Answer": {
+                           "AnswerType": "0", //0文本 1图片
+                            "AnswerContent": "递进2" //AnswerType=0 AnswerContent传字符串                                                                                         //AnswerType=1 AnswerContent传数组 
+          
+    }
 }
 
 
 ###  作文题
-Post  http://localhost:10005/Exercise/SaveStructExercise?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
+Post  http: //{{host}}/Exercise/SaveStructExercise?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
 Content-Type: application/json
 
 # {
@@ -225,28 +233,117 @@ Content-Type: application/json
 # "ExerciseTypeName": "作文题",
 # "ExerciseSubject": "111",
 # "ExerciseAliasTypeName": "111",
-# "Option":  {
-#                            "WordNumber": "20" ,
+# "Option": {
+#                            "WordNumber": "20",
 #                             "Style": "0" //0无样式 1作文  2四线三格  
                          
-#    },
+#    
+#    },
 # "Answer": {
-#                            "AnswerType": "0" , //0文本 1图片
-#                             "AnswerContent": "递进2"    //AnswerType=0 AnswerContent传字符串                                                                                         //AnswerType=1 AnswerContent传数组 
-#           }
+#                            "AnswerType": "0", //0文本 1图片
+#                             "AnswerContent": "递进2" //AnswerType=0 AnswerContent传字符串                                                                                         //AnswerType=1 AnswerContent传数组 
+#           
+#    }
  
+#
+#}
+
+
+#{
+#     "exerciseId": 3032246948045,
+#     "exerciseTypeAliasId": 863288428623,
+#     "exerciseTypeAliasName": "综合题",
+#     "exerciseTypeId": 6,
+#     "exerciseTypeName": "组合题",
+#     "exerciseSubject": "<p hexid=\"2bb5a887969ea26f576cc165b91cc9c2\">1</p>",
+#     "option": [
+#         {
+#             "exerciseId": 3032246948047,
+#             "exerciseTypeAliasId": 863288426577,
+#             "exerciseTypeAliasName": "单选题",
+#             "exerciseTypeId": 1,
+#             "exerciseTypeName": "单选题",
+#             "exerciseSubject": "<p hexid=\"7573aa50917514c8b2e4fff750ef1352\">2</p>",
+#             "option": [
+#                 {
+#                     "optionType": 0,
+#                     "optionContent": "<p hexid=\"990052c8fd468d1ad1f8f9dbe61251c7\">3</p>"
+#                 },
+#                 {
+#                     "optionType": 0,
+#                     "optionContent": "<p hexid=\"b57ed7683551b878611d1fd66096658f\">4</p>"
+#                 },
+#                 {
+#                     "optionType": 0,
+#                     "optionContent": "<p hexid=\"0db96eeef980b047fd0217b5a09c185a\">5</p>"
+#                 },
+#                 {
+#                     "optionType": 0,
+#                     "optionContent": "<p hexid=\"b4cdabd34ba05d3db03e097f55503150\">6</p>"
+#                 }
+#             ],
+#             "answer": "1000",
+#             "show": true
+#         }
+#     ],
+#     "answer": null
+# }
+# {
+#     "exerciseId": 3032246948079,
+#     "exerciseTypeAliasId": 863288443443,
+#     "exerciseTypeAliasName": "读图题",
+#     "exerciseTypeId": 1,
+#     "exerciseTypeName": "单选题",
+#     "exerciseSubject": "<p hexid=\"98efb1328078fe65573d3040513e3b2e\">df</p>",
+#     "option": [
+#         {
+#             "optionType": 0,
+#             "optionContent": "<p hexid=\"8f17f62954277b58aa25c8ec56a31330\">4</p>"
+#         },
+#         {
+#             "optionType": 0,
+#             "optionContent": "<p hexid=\"f7b1bb1ac845fa9ffd1a08df27597eb2\">5</p>"
+#         },
+#         {
+#             "optionType": 0,
+#             "optionContent": "<p hexid=\"2e50b4421bb0a5651a75ef32b27d6e96\">6</p>"
+#         },
+#         {
+#             "optionType": 0,
+#             "optionContent": "<p hexid=\"da144f2e8fc98edfe680f7961682a2b5\">7</p>"
+#         }
+#     ],
+#     "answer": "1000"
+# }
+# {
+#     "exerciseId": 3032246947865,
+#     "exerciseTypeAliasId": 863288428623,
+#     "exerciseTypeAliasName": "综合题",
+#     "exerciseTypeId": 5,
+#     "exerciseTypeName": "组合题",
+#     "exerciseSubject": "<p hexid=\"70e6994b9f35adad6f7b013d0a593abf\">rtrtrt</p>",
+#     "option": [
+#         {
+#             "exerciseId": null,
+#             "exerciseTypeAliasId": 863288432546,
+#             "exerciseTypeId": 7,
+#             "exerciseTypeName": "判断题",
+#             "exerciseSubject": "<p hexid=\"c60b97f309ac8eb8f8a89da264c159d4\">trtrt</p>",
+#             "option": null,
+#             "answer": 1,
+#             "exerciseTypeAliasName": "判断题"
+#         }
+#     ],
+#     "answer": null
 # }
 
-
-{"exerciseId":3032246948045,"exerciseTypeAliasId":863288428623,"exerciseTypeAliasName":"综合题","exerciseTypeId":5,"exerciseTypeName":"组合题","exerciseSubject":"<p hexid=\"2bb5a887969ea26f576cc165b91cc9c2\">1</p>","option":[{"exerciseId":3032246948047,"exerciseTypeAliasId":863288426577,"exerciseTypeAliasName":"单选题","exerciseTypeId":1,"exerciseTypeName":"单选题","exerciseSubject":"<p hexid=\"7573aa50917514c8b2e4fff750ef1352\">2</p>","option":[{"optionType":0,"optionContent":"<p hexid=\"990052c8fd468d1ad1f8f9dbe61251c7\">3</p>"},{"optionType":0,"optionContent":"<p hexid=\"b57ed7683551b878611d1fd66096658f\">4</p>"},{"optionType":0,"optionContent":"<p hexid=\"0db96eeef980b047fd0217b5a09c185a\">5</p>"},{"optionType":0,"optionContent":"<p hexid=\"b4cdabd34ba05d3db03e097f55503150\">6</p>"}],"answer":"1000","show":true}],"answer":null}
-
-
-
 ###
-Post http://localhost:10005/Exercise/GetExercisesByIds?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747&content=15127617235&pageIndex=1&pageSize=10
+Post http: //{{host}}/Exercise/GetExercisesByIds?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747&content=15127617235&pageIndex=1&pageSize=10
 content-type: application/json
 
- [3032246948045]
+ [
+    3032246947850
+]
 
 
 
@@ -255,39 +352,244 @@ content-type: application/json
 
 
 ### 
-Post http://hz.hexfuture.cn/routeapi/Exercise/CreateList?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747&content=15127617235&pageIndex=1&pageSize=10
+Post http: //{{host}}/Exercise/CreateList?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747&content=15127617235&pageIndex=1&pageSize=10
 content-type: application/json
 
-{"List":[{"exerciseId":0,"number":"1","exerciseTypeID":1,"exerciseTypeName":"单选题","eName":"SingleChoice","exerciseTypeAliasID":863288426577,"exerciseTypeAliasName":"单选题","categoryID":3032247157927,"categoryName":"二、选择题:本题共8","parentID":0,"questionItemID":0,"isIncludeQuestions":false,"questions":[],"pageID":3032247130687,"pageNum":0,"sequence":1,"answerOptions":"0000","choiceCount":4,"optionCount":1,"img":[85903644169304],"exercisePoolID":0,"exercisePoolName":"","word":"1.如图,光滑水平地面上有一小车,一轻弹簧的一端与车厢的挡板相连,另一端与滑块相连,滑块与车厢\n的水平底板间有摩擦。用力向右推动车厢使弹簧压缩,撤去推力时滑块在车厢底板上有相对滑动。在地面\n参考系(可视为惯性系)中,从撤去推力开始,小车、弹簧和滑块组成的系统()\nA.动量守恒,机械能守恒\nB.动量守恒,机械能不守恒\nC.动量不守恒,机械能守恒\nD.动量不守恒,机械能不守恒"},{"exerciseId":0,"number":"2","exerciseTypeID":1,"exerciseTypeName":"单选题","eName":"SingleChoice","exerciseTypeAliasID":863288426577,"exerciseTypeAliasName":"单选题","categoryID":3032247157927,"categoryName":"二、选择题:本题共8","parentID":0,"questionItemID":0,"isIncludeQuestions":false,"questions":[],"pageID":3032247130687,"pageNum":0,"sequence":2,"answerOptions":"0000","choiceCount":3,"optionCount":1,"img":[85903644169306],"exercisePoolID":0,"exercisePoolName":"","word":"2.如图(a),在一块很大的接地金属平板的上方固定一负电荷。由于静电感应,在金属平板上表面产生感\n应电荷,金属板上方电场的等势面如图(b)中虚线所示,相邻等势面间的电势差都相等。若将一正试探电\n荷先后放于M和N处,该试探电荷受到的电场力大小分别为$$F _ { M }$$和$$F _ { N } ,$$相应的电势能分别为$$E _ { p M }$$和$$E _ { p N } ,$$\n则()\n$$A . F _ { M } < F _ { N } , E _ { p M } > E _ { p N }$$$$B . F _ { M } > F _ { N } , E _ { p M } > E _ { p N }$$\n$$C F _ { M } < F _ { N } , E _ { p M } < E _ { p N }$$$$D . F _ { M } > F _ { N } , E _ { p M } < E _ { p N }$$"},{"exerciseId":0,"number":"3","exerciseTypeID":1,"exerciseTypeName":"单选题","eName":"SingleChoice","exerciseTypeAliasID":863288426577,"exerciseTypeAliasName":"单选题","categoryID":3032247157927,"categoryName":"二、选择题:本题共8","parentID":0,"questionItemID":0,"isIncludeQuestions":false,"questions":[],"pageID":3032247130687,"pageNum":0,"sequence":3,"answerOptions":"0000","choiceCount":0,"optionCount":1,"img":[85903644169309],"exercisePoolID":0,"exercisePoolName":"","word":"3.如图,圆形区域内有垂直纸面向里的匀强磁场,质量为m、电荷量为q(q>0)的带电粒子从圆周上的M"}]}
+{
+    "List": [
+        {
+            "exerciseId": 0,
+            "number": "1",
+            "exerciseTypeID": 1,
+            "exerciseTypeName": "单选题",
+            "eName": "SingleChoice",
+            "exerciseTypeAliasID": 863288426577,
+            "exerciseTypeAliasName": "单选题",
+            "categoryID": 3032247157927,
+            "categoryName": "二、选择题:本题共8",
+            "parentID": 0,
+            "questionItemID": 0,
+            "isIncludeQuestions": false,
+            "questions": [],
+            "pageID": 3032247130687,
+            "pageNum": 0,
+            "sequence": 1,
+            "answerOptions": "0000",
+            "choiceCount": 4,
+            "optionCount": 1,
+            "img": [
+                85903644169304
+            ],
+            "exercisePoolID": 0,
+            "exercisePoolName": "",
+            "word": "1.如图,光滑水平地面上有一小车,一轻弹簧的一端与车厢的挡板相连,另一端与滑块相连,滑块与车厢\n的水平底板间有摩擦。用力向右推动车厢使弹簧压缩,撤去推力时滑块在车厢底板上有相对滑动。在地面\n参考系(可视为惯性系)中,从撤去推力开始,小车、弹簧和滑块组成的系统()\nA.动量守恒,机械能守恒\nB.动量守恒,机械能不守恒\nC.动量不守恒,机械能守恒\nD.动量不守恒,机械能不守恒"
+        },
+        {
+            "exerciseId": 0,
+            "number": "2",
+            "exerciseTypeID": 1,
+            "exerciseTypeName": "单选题",
+            "eName": "SingleChoice",
+            "exerciseTypeAliasID": 863288426577,
+            "exerciseTypeAliasName": "单选题",
+            "categoryID": 3032247157927,
+            "categoryName": "二、选择题:本题共8",
+            "parentID": 0,
+            "questionItemID": 0,
+            "isIncludeQuestions": false,
+            "questions": [],
+            "pageID": 3032247130687,
+            "pageNum": 0,
+            "sequence": 2,
+            "answerOptions": "0000",
+            "choiceCount": 3,
+            "optionCount": 1,
+            "img": [
+                85903644169306
+            ],
+            "exercisePoolID": 0,
+            "exercisePoolName": "",
+            "word": "2.如图(a),在一块很大的接地金属平板的上方固定一负电荷。由于静电感应,在金属平板上表面产生感\n应电荷,金属板上方电场的等势面如图(b)中虚线所示,相邻等势面间的电势差都相等。若将一正试探电\n荷先后放于M和N处,该试探电荷受到的电场力大小分别为$$F _ { M }$$和$$F _ { N } ,$$相应的电势能分别为$$E _ { p M }$$和$$E _ { p N } ,$$\n则()\n$$A . F _ { M } < F _ { N } , E _ { p M } > E _ { p N }$$$$B . F _ { M } > F _ { N } , E _ { p M } > E _ { p N }$$\n$$C F _ { M } < F _ { N } , E _ { p M } < E _ { p N }$$$$D . F _ { M } > F _ { N } , E _ { p M } < E _ { p N }$$"
+        },
+        {
+            "exerciseId": 0,
+            "number": "3",
+            "exerciseTypeID": 1,
+            "exerciseTypeName": "单选题",
+            "eName": "SingleChoice",
+            "exerciseTypeAliasID": 863288426577,
+            "exerciseTypeAliasName": "单选题",
+            "categoryID": 3032247157927,
+            "categoryName": "二、选择题:本题共8",
+            "parentID": 0,
+            "questionItemID": 0,
+            "isIncludeQuestions": false,
+            "questions": [],
+            "pageID": 3032247130687,
+            "pageNum": 0,
+            "sequence": 3,
+            "answerOptions": "0000",
+            "choiceCount": 0,
+            "optionCount": 1,
+            "img": [
+                85903644169309
+            ],
+            "exercisePoolID": 0,
+            "exercisePoolName": "",
+            "word": "3.如图,圆形区域内有垂直纸面向里的匀强磁场,质量为m、电荷量为q(q>0)的带电粒子从圆周上的M"
+        }
+    ]
+}
 
 
 
 ###
-http://localhost:10005/Exercise/GetExerIndexAsync?ssotoken=6D090E61C964335A0463375E57B5E854ACA407640787557182D5129FBE9B290D53CBA04227EE48324AD4E9B312ECE6AE22AA2E15F84D4A4542AABE24A12FE68731C3292EDE36D19A23CCF9FDB16845EA90B8DC9E540DA0B46E437280A36AC3CC74E77AB07C7F15D2&exerciseIds=3032246947368
+http: //{{host}}/Exercise/GetExerIndexAsync?ssotoken=6D090E61C964335A0463375E57B5E854ACA407640787557182D5129FBE9B290D53CBA04227EE48324AD4E9B312ECE6AE22AA2E15F84D4A4542AABE24A12FE68731C3292EDE36D19A23CCF9FDB16845EA90B8DC9E540DA0B46E437280A36AC3CC74E77AB07C7F15D2&exerciseIds=3032246947368
 ###
-http://hz.hexfuture.cn/routeapi/exercise/SearchRepeateExercise/?exerciseSubject=Hi Simon，I havent written till nowIve been busy w&pageIndex=1&rowsCount=10&ssotoken=F908601370F86E673F018E7C81D8B6CB6A7277CD894D805CE5501F4FA252D63F2B24BBF260EF9FBD77916CA507E1C36B618BB96EDAE6B33FED86CBD70ABE7BDCD3AED9180521549F4055CCB3DF70CCCB797C9F20308CAEE56A33A085EF7409DB10B5F87CDE3AF241
+http: //{{host}}/exercise/SearchRepeateExercise/?exerciseSubject=Hi Simon，I havent written till nowIve been busy w&pageIndex=1&rowsCount=10&ssotoken=F908601370F86E673F018E7C81D8B6CB6A7277CD894D805CE5501F4FA252D63F2B24BBF260EF9FBD77916CA507E1C36B618BB96EDAE6B33FED86CBD70ABE7BDCD3AED9180521549F4055CCB3DF70CCCB797C9F20308CAEE56A33A085EF7409DB10B5F87CDE3AF241
 
 
 ###
-Post  http://192.168.12.53:31014/Exercise/GetPictureExercises?ssotoken=F908601370F86E673F018E7C81D8B6CB6A7277CD894D805C9A5D2C18C7CD03B0741F9F37489904A94A80F86CF26C9B83EF7A2A6B7087BEEFB2752087C0FE11035FE220D398DE03846496522990F364DE4A24F3641337D7A21B79AE64F73D18498300919699AAA3F9
+Post  http: //{{host}}/Exercise/GetPictureExercises?ssotoken=F908601370F86E673F018E7C81D8B6CB6A7277CD894D805C9A5D2C18C7CD03B0741F9F37489904A94A80F86CF26C9B83EF7A2A6B7087BEEFB2752087C0FE11035FE220D398DE03846496522990F364DE4A24F3641337D7A21B79AE64F73D18498300919699AAA3F9
 Content-Type: application/json
 
-[3032246948017]
+[
+    3032246948017
+]
 
 
 
 ###
-Post  http://localhost:10005/Exercise/CreateExerciseSimple?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
+Post  http: //{{host}}/Exercise/CreateExerciseSimple?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
 Content-Type: application/json
 
-{"isStruct":true,"exerciseId":3032247398829,"exerciseTypeID":1,"exerciseTypeName":"单选题","exerciseTypeAliasID":863288426577,"exerciseTypeAliasName":"单选题","isIncludeQuestions":false,"pageNum":0,"answerOptions":"0010","optionCount":4,"img":[85903644174593],"answers":"","exercisePoolName":"","questions":[]}
+{
+    "isStruct": true,
+    "exerciseId": 3032247398829,
+    "exerciseTypeID": 1,
+    "exerciseTypeName": "单选题",
+    "exerciseTypeAliasID": 863288426577,
+    "exerciseTypeAliasName": "单选题",
+    "isIncludeQuestions": false,
+    "pageNum": 0,
+    "answerOptions": "0010",
+    "optionCount": 4,
+    "img": [
+        85903644174593
+    ],
+    "answers": "",
+    "exercisePoolName": "",
+    "questions": []
+}
 
 
 
 
 ###
-Post  http://localhost:10005/Exercise/SaveStructExercise?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
+Post  http: //{{host}}/Exercise/SaveStructExercise?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
 Content-Type: application/json
 
 
-{"codeSnippet":"{\"subject\":\"<p hexid=\\\"ffff8a07ffaef6e7533868317169572e\\\">完形填空</p><p hexid=\\\"94ba9a377d5e4c864aa7028c41073d27\\\">Hello, my friends! My name is Betty Smith. I am an American(美国的) &nbsp;&nbsp;<span blankindex=\\\"1\\\" contenteditable=\\\"false\\\" unselectable=\\\"on\\\">__1__</span>&nbsp;. Now my parents, my brother and I live(居住) in Wuhan, China.&nbsp;</p><p hexid=\\\"caee0c672c93c689cb68d063a97da5c7\\\"></p><p hexid=\\\"9c2d769d37aa1f9a18b985e6e3362fee\\\">Here is a nice photo of my<span blankindex=\\\"2\\\" contenteditable=\\\"false\\\" unselectable=\\\"on\\\">__2__</span>&nbsp;. Look! Many books are in the &nbsp;&nbsp;<span blankindex=\\\"3\\\" contenteditable=\\\"false\\\" unselectable=\\\"on\\\">__3__</span>&nbsp;. A radio is in the bookcase, too. <span blankindex=\\\"4\\\" contenteditable=\\\"false\\\" unselectable=\\\"on\\\">__4__</span>&nbsp;is my schoolbag? It's on the table. My clock is on the<span blankindex=\\\"5\\\" contenteditable=\\\"false\\\" unselectable=\\\"on\\\">__5__</span>&nbsp;, too. My quilt is on the bed. Is my jacket on the bed, too? &nbsp;&nbsp;<span blankindex=\\\"6\\\" contenteditable=\\\"false\\\" unselectable=\\\"on\\\">__6__</span>&nbsp;, it's in my closet(衣柜).&nbsp;</p><p hexid=\\\"d5169e55ceb4bcc5f2b311d2f07ef1a2\\\"></p><p hexid=\\\"587a8b52648cf38ff30163533d9be69a\\\">What is that under the desk? Oh, it's a red model plane. It isn't<span blankindex=\\\"7\\\" contenteditable=\\\"false\\\" unselectable=\\\"on\\\">__7__</span>&nbsp;. It's David's. And a ball is<span blankindex=\\\"8\\\" contenteditable=\\\"false\\\" unselectable=\\\"on\\\">__8__</span>&nbsp;the chair. It's David's, too. Who is David? He is my&nbsp;<span blankindex=\\\"9\\\" contenteditable=\\\"false\\\" unselectable=\\\"on\\\">__9__</span>&nbsp;. He is five years old, and he often puts some of his toys in my room. He always <span blankindex=\\\"10\\\" contenteditable=\\\"false\\\" unselectable=\\\"on\\\">__10__</span>&nbsp;me, \\\"Sister, where is my ball? Where is my toy car? Where are my Lego bricks(积木)?\\\" This is my room. How about yours? Tell(告诉) me, please.</p><p hexid=\\\"7a3f6ec7885b2c33d1f6f41ff3eecc55\\\"></p><p hexid=\\\"\\\">(1)</p><p hexid=\\\"47f26370349faec815f9d4ef3ab69e6b\\\"><span data-index=\\\"index\\\">A.</span>boy</p><p hexid=\\\"b64c3b6014c35747592f0a8bab6d4b4a\\\"><span data-index=\\\"index\\\">B.</span>girl</p><p hexid=\\\"daa53d7a76b812f627a1b9e986b35d05\\\"><span data-index=\\\"index\\\">C.</span>son</p><p hexid=\\\"0666fe34ec4ad4212636301966ecb8ef\\\"><span data-index=\\\"index\\\">D.</span>daughter</p><p hexid=\\\"\\\">(2)</p><p hexid=\\\"66bda22f36f409bab4d3ced44c7fdfa1\\\"><span data-index=\\\"index\\\">A.</span>family</p><p hexid=\\\"9f77d15aa4e5edbed5a70ccb0ac42bf2\\\"><span data-index=\\\"index\\\">B.</span>room</p><p hexid=\\\"70e22b36aa4939c44e4196c9088b670a\\\"><span data-index=\\\"index\\\">C.</span>school</p><p hexid=\\\"6f882ddef2b749154d49153b1cf07d33\\\"><span data-index=\\\"index\\\">D.</span>library</p><p hexid=\\\"\\\">(3)</p><p hexid=\\\"aa3073af984b77d6e7567a2800c517af\\\"><span data-index=\\\"index\\\">A.</span>desk</p><p hexid=\\\"f566556e7a504c2e2cddc928d8a9e499\\\"><span data-index=\\\"index\\\">B.</span>box</p><p hexid=\\\"73575d764780d972a9b9ca66d4e13396\\\"><span data-index=\\\"index\\\">C.</span>bookcase</p><p hexid=\\\"2ba0f6b0914b3c37c5547cbe3e6ac88e\\\"><span data-index=\\\"index\\\">D.</span>schoolbag</p><p hexid=\\\"\\\">(4)</p><p hexid=\\\"dbb285e0bcad3206cdcb108c425f18f6\\\"><span data-index=\\\"index\\\">A.</span>What</p><p hexid=\\\"7f87831395f8c12a795dfd778389d541\\\"><span data-index=\\\"index\\\">B.</span>How</p><p hexid=\\\"77a3fb540ac0b8b497b735dd02f0e9b8\\\"><span data-index=\\\"index\\\">C.</span>Who</p><p hexid=\\\"0b7eb270a66d1cb96b6b7693e2683af4\\\"><span data-index=\\\"index\\\">D.</span>Where</p><p hexid=\\\"\\\">(5)</p><p hexid=\\\"a4849024bca0898b94c0887c5e961394\\\"><span data-index=\\\"index\\\">A.</span>table</p><p hexid=\\\"f45072e13706d16e6e52e18fe83e3313\\\"><span data-index=\\\"index\\\">B.</span>chair</p><p hexid=\\\"170f3ce7619e9f1a26efb87a94a3ff6a\\\"><span data-index=\\\"index\\\">C.</span>sofa</p><p hexid=\\\"7b0d327f6368d76fc806943fbdccfa78\\\"><span data-index=\\\"index\\\">D.</span>bed</p><p hexid=\\\"\\\">(6)</p><p hexid=\\\"2ed23e4cc5df95c2bfd1e1cf6a72eb56\\\"><span data-index=\\\"index\\\">A.</span>OK</p><p hexid=\\\"8ca4ec7a5a197a39e75674b4847cf7c9\\\"><span data-index=\\\"index\\\">B.</span>Good</p><p hexid=\\\"43041402983eed9bd0e5774b599c72c3\\\"><span data-index=\\\"index\\\">C.</span>Yes</p><p hexid=\\\"d87a695a5a5f68734ccfbd37e2158d50\\\"><span data-index=\\\"index\\\">D.</span>No</p><p hexid=\\\"\\\">(7)</p><p hexid=\\\"5ae137f86c888d405a101642022afbab\\\"><span data-index=\\\"index\\\">A.</span>mine</p><p hexid=\\\"4d595f40eec7931094c97255a3480f94\\\"><span data-index=\\\"index\\\">B.</span>yours</p><p hexid=\\\"1b2f0d95142eaddfdba6426d5c933c5b\\\"><span data-index=\\\"index\\\">C.</span>his</p><p hexid=\\\"212c16a5134bd7eeebf7464a002ccc76\\\"><span data-index=\\\"index\\\">D.</span>her</p><p hexid=\\\"\\\">(8)</p><p hexid=\\\"069135a8ca596682d77d50aa7a3d7509\\\"><span data-index=\\\"index\\\">A.</span>from</p><p hexid=\\\"823ffe98aa9d672d2863b158f1ca2182\\\"><span data-index=\\\"index\\\">B.</span>under</p><p hexid=\\\"3c0573d138c72cdd69eb2ab20ef96bec\\\"><span data-index=\\\"index\\\">C.</span>to</p><p hexid=\\\"d505043906b70abdb503cb1ed7490193\\\"><span data-index=\\\"index\\\">D.</span>of</p><p hexid=\\\"\\\">(9)</p><p hexid=\\\"e0856f4a19ece9c784753a3c5d3352fe\\\"><span data-index=\\\"index\\\">A.</span>cousin</p><p hexid=\\\"b7fc3cfaff5ed2a8f01e693cf27983e5\\\"><span data-index=\\\"index\\\">B.</span>friend</p><p hexid=\\\"093fc3aa3c676739802f33d14d9d396c\\\"><span data-index=\\\"index\\\">C.</span>brother</p><p hexid=\\\"081f53e4906080e191e8e4cfaf010592\\\"><span data-index=\\\"index\\\">D.</span>father</p><p hexid=\\\"\\\">(10)</p><p hexid=\\\"c958d688df0b1dd3ea263853c4f92091\\\"><span data-index=\\\"index\\\">A.</span>asks</p><p hexid=\\\"b1d7284b1432465d0274ee2c8c4b41be\\\"><span data-index=\\\"index\\\">B.</span>says</p><p hexid=\\\"c7f613c7b79650ffdda2dd4a5abebbf5\\\"><span data-index=\\\"index\\\">C.</span>knows</p><p hexid=\\\"ac233068bc89a9a53a070b49ee7748f7\\\"><span data-index=\\\"index\\\">D.</span>meets</p>\",\"answer\":\"\"}","parentId":0,"exerciseId":0,"exerciseAliasTypeId":863288434055,"exerciseAliasTypeName":"选择填空","exerciseTypeId":8,"exerciseTypeName":"选择填空题","exerciseSubject":"<p hexid=\"ffff8a07ffaef6e7533868317169572e\">完形填空</p><p hexid=\"94ba9a377d5e4c864aa7028c41073d27\">Hello, my friends! My name is Betty Smith. I am an American(美国的) &nbsp;&nbsp;<span blankindex=\"1\" contenteditable=\"false\" unselectable=\"on\">__1__</span>&nbsp;. Now my parents, my brother and I live(居住) in Wuhan, China.&nbsp;</p><p hexid=\"caee0c672c93c689cb68d063a97da5c7\"></p><p hexid=\"9c2d769d37aa1f9a18b985e6e3362fee\">Here is a nice photo of my<span blankindex=\"2\" contenteditable=\"false\" unselectable=\"on\">__2__</span>&nbsp;. Look! Many books are in the &nbsp;&nbsp;<span blankindex=\"3\" contenteditable=\"false\" unselectable=\"on\">__3__</span>&nbsp;. A radio is in the bookcase, too. <span blankindex=\"4\" contenteditable=\"false\" unselectable=\"on\">__4__</span>&nbsp;is my schoolbag? It's on the table. My clock is on the<span blankindex=\"5\" contenteditable=\"false\" unselectable=\"on\">__5__</span>&nbsp;, too. My quilt is on the bed. Is my jacket on the bed, too? &nbsp;&nbsp;<span blankindex=\"6\" contenteditable=\"false\" unselectable=\"on\">__6__</span>&nbsp;, it's in my closet(衣柜).&nbsp;</p><p hexid=\"d5169e55ceb4bcc5f2b311d2f07ef1a2\"></p><p hexid=\"587a8b52648cf38ff30163533d9be69a\">What is that under the desk? Oh, it's a red model plane. It isn't<span blankindex=\"7\" contenteditable=\"false\" unselectable=\"on\">__7__</span>&nbsp;. It's David's. And a ball is<span blankindex=\"8\" contenteditable=\"false\" unselectable=\"on\">__8__</span>&nbsp;the chair. It's David's, too. Who is David? He is my&nbsp;<span blankindex=\"9\" contenteditable=\"false\" unselectable=\"on\">__9__</span>&nbsp;. He is five years old, and he often puts some of his toys in my room. He always <span blankindex=\"10\" contenteditable=\"false\" unselectable=\"on\">__10__</span>&nbsp;me, \"Sister, where is my ball? Where is my toy car? Where are my Lego bricks(积木)?\" This is my room. How about yours? Tell(告诉) me, please.</p><p hexid=\"7a3f6ec7885b2c33d1f6f41ff3eecc55\"></p>","option":[{"optionList":["<p hexid=\"47f26370349faec815f9d4ef3ab69e6b\">boy</p>","<p hexid=\"b64c3b6014c35747592f0a8bab6d4b4a\">girl</p>","<p hexid=\"daa53d7a76b812f627a1b9e986b35d05\">son</p>","<p hexid=\"0666fe34ec4ad4212636301966ecb8ef\">daughter</p>"],"answer":"0100"},{"optionList":["<p hexid=\"66bda22f36f409bab4d3ced44c7fdfa1\">family</p>","<p hexid=\"9f77d15aa4e5edbed5a70ccb0ac42bf2\">room</p>","<p hexid=\"70e22b36aa4939c44e4196c9088b670a\">school</p>","<p hexid=\"6f882ddef2b749154d49153b1cf07d33\">library</p>"],"answer":"0100"},{"optionList":["<p hexid=\"aa3073af984b77d6e7567a2800c517af\">desk</p>","<p hexid=\"f566556e7a504c2e2cddc928d8a9e499\">box</p>","<p hexid=\"73575d764780d972a9b9ca66d4e13396\">bookcase</p>","<p hexid=\"2ba0f6b0914b3c37c5547cbe3e6ac88e\">schoolbag</p>"],"answer":"0010"},{"optionList":["<p hexid=\"dbb285e0bcad3206cdcb108c425f18f6\">What</p>","<p hexid=\"7f87831395f8c12a795dfd778389d541\">How</p>","<p hexid=\"77a3fb540ac0b8b497b735dd02f0e9b8\">Who</p>","<p hexid=\"0b7eb270a66d1cb96b6b7693e2683af4\">Where</p>"],"answer":"0001"},{"optionList":["<p hexid=\"a4849024bca0898b94c0887c5e961394\">table</p>","<p hexid=\"f45072e13706d16e6e52e18fe83e3313\">chair</p>","<p hexid=\"170f3ce7619e9f1a26efb87a94a3ff6a\">sofa</p>","<p hexid=\"7b0d327f6368d76fc806943fbdccfa78\">bed</p>"],"answer":"1000"},{"optionList":["<p hexid=\"2ed23e4cc5df95c2bfd1e1cf6a72eb56\">OK</p>","<p hexid=\"8ca4ec7a5a197a39e75674b4847cf7c9\">Good</p>","<p hexid=\"43041402983eed9bd0e5774b599c72c3\">Yes</p>","<p hexid=\"d87a695a5a5f68734ccfbd37e2158d50\">No</p>"],"answer":"0001"},{"optionList":["<p hexid=\"5ae137f86c888d405a101642022afbab\">mine</p>","<p hexid=\"4d595f40eec7931094c97255a3480f94\">yours</p>","<p hexid=\"1b2f0d95142eaddfdba6426d5c933c5b\">his</p>","<p hexid=\"212c16a5134bd7eeebf7464a002ccc76\">her</p>"],"answer":"1000"},{"optionList":["<p hexid=\"069135a8ca596682d77d50aa7a3d7509\">from</p>","<p hexid=\"823ffe98aa9d672d2863b158f1ca2182\">under</p>","<p hexid=\"3c0573d138c72cdd69eb2ab20ef96bec\">to</p>","<p hexid=\"d505043906b70abdb503cb1ed7490193\">of</p>"],"answer":"0100"},{"optionList":["<p hexid=\"e0856f4a19ece9c784753a3c5d3352fe\">cousin</p>","<p hexid=\"b7fc3cfaff5ed2a8f01e693cf27983e5\">friend</p>","<p hexid=\"093fc3aa3c676739802f33d14d9d396c\">brother</p>","<p hexid=\"081f53e4906080e191e8e4cfaf010592\">father</p>"],"answer":"0010"},{"optionList":["<p hexid=\"c958d688df0b1dd3ea263853c4f92091\">asks</p>","<p hexid=\"b1d7284b1432465d0274ee2c8c4b41be\">says</p>","<p hexid=\"c7f613c7b79650ffdda2dd4a5abebbf5\">knows</p>","<p hexid=\"ac233068bc89a9a53a070b49ee7748f7\">meets</p>"],"answer":"1000"}],"answer":null}
+{
+    "codeSnippet": "{\"subject\":\"<p hexid=\\\"ffff8a07ffaef6e7533868317169572e\\\">完形填空</p><p hexid=\\\"94ba9a377d5e4c864aa7028c41073d27\\\">Hello, my friends! My name is Betty Smith. I am an American(美国的) &nbsp;&nbsp;<span blankindex=\\\"1\\\" contenteditable=\\\"false\\\" unselectable=\\\"on\\\">__1__</span>&nbsp;. Now my parents, my brother and I live(居住) in Wuhan, China.&nbsp;</p><p hexid=\\\"caee0c672c93c689cb68d063a97da5c7\\\"></p><p hexid=\\\"9c2d769d37aa1f9a18b985e6e3362fee\\\">Here is a nice photo of my<span blankindex=\\\"2\\\" contenteditable=\\\"false\\\" unselectable=\\\"on\\\">__2__</span>&nbsp;. Look! Many books are in the &nbsp;&nbsp;<span blankindex=\\\"3\\\" contenteditable=\\\"false\\\" unselectable=\\\"on\\\">__3__</span>&nbsp;. A radio is in the bookcase, too. <span blankindex=\\\"4\\\" contenteditable=\\\"false\\\" unselectable=\\\"on\\\">__4__</span>&nbsp;is my schoolbag? It's on the table. My clock is on the<span blankindex=\\\"5\\\" contenteditable=\\\"false\\\" unselectable=\\\"on\\\">__5__</span>&nbsp;, too. My quilt is on the bed. Is my jacket on the bed, too? &nbsp;&nbsp;<span blankindex=\\\"6\\\" contenteditable=\\\"false\\\" unselectable=\\\"on\\\">__6__</span>&nbsp;, it's in my closet(衣柜).&nbsp;</p><p hexid=\\\"d5169e55ceb4bcc5f2b311d2f07ef1a2\\\"></p><p hexid=\\\"587a8b52648cf38ff30163533d9be69a\\\">What is that under the desk? Oh, it's a red model plane. It isn't<span blankindex=\\\"7\\\" contenteditable=\\\"false\\\" unselectable=\\\"on\\\">__7__</span>&nbsp;. It's David's. And a ball is<span blankindex=\\\"8\\\" contenteditable=\\\"false\\\" unselectable=\\\"on\\\">__8__</span>&nbsp;the chair. It's David's, too. Who is David? He is my&nbsp;<span blankindex=\\\"9\\\" contenteditable=\\\"false\\\" unselectable=\\\"on\\\">__9__</span>&nbsp;. He is five years old, and he often puts some of his toys in my room. He always <span blankindex=\\\"10\\\" contenteditable=\\\"false\\\" unselectable=\\\"on\\\">__10__</span>&nbsp;me, \\\"Sister, where is my ball? Where is my toy car? Where are my Lego bricks(积木)?\\\" This is my room. How about yours? Tell(告诉) me, please.</p><p hexid=\\\"7a3f6ec7885b2c33d1f6f41ff3eecc55\\\"></p><p hexid=\\\"\\\">(1)</p><p hexid=\\\"47f26370349faec815f9d4ef3ab69e6b\\\"><span data-index=\\\"index\\\">A.</span>boy</p><p hexid=\\\"b64c3b6014c35747592f0a8bab6d4b4a\\\"><span data-index=\\\"index\\\">B.</span>girl</p><p hexid=\\\"daa53d7a76b812f627a1b9e986b35d05\\\"><span data-index=\\\"index\\\">C.</span>son</p><p hexid=\\\"0666fe34ec4ad4212636301966ecb8ef\\\"><span data-index=\\\"index\\\">D.</span>daughter</p><p hexid=\\\"\\\">(2)</p><p hexid=\\\"66bda22f36f409bab4d3ced44c7fdfa1\\\"><span data-index=\\\"index\\\">A.</span>family</p><p hexid=\\\"9f77d15aa4e5edbed5a70ccb0ac42bf2\\\"><span data-index=\\\"index\\\">B.</span>room</p><p hexid=\\\"70e22b36aa4939c44e4196c9088b670a\\\"><span data-index=\\\"index\\\">C.</span>school</p><p hexid=\\\"6f882ddef2b749154d49153b1cf07d33\\\"><span data-index=\\\"index\\\">D.</span>library</p><p hexid=\\\"\\\">(3)</p><p hexid=\\\"aa3073af984b77d6e7567a2800c517af\\\"><span data-index=\\\"index\\\">A.</span>desk</p><p hexid=\\\"f566556e7a504c2e2cddc928d8a9e499\\\"><span data-index=\\\"index\\\">B.</span>box</p><p hexid=\\\"73575d764780d972a9b9ca66d4e13396\\\"><span data-index=\\\"index\\\">C.</span>bookcase</p><p hexid=\\\"2ba0f6b0914b3c37c5547cbe3e6ac88e\\\"><span data-index=\\\"index\\\">D.</span>schoolbag</p><p hexid=\\\"\\\">(4)</p><p hexid=\\\"dbb285e0bcad3206cdcb108c425f18f6\\\"><span data-index=\\\"index\\\">A.</span>What</p><p hexid=\\\"7f87831395f8c12a795dfd778389d541\\\"><span data-index=\\\"index\\\">B.</span>How</p><p hexid=\\\"77a3fb540ac0b8b497b735dd02f0e9b8\\\"><span data-index=\\\"index\\\">C.</span>Who</p><p hexid=\\\"0b7eb270a66d1cb96b6b7693e2683af4\\\"><span data-index=\\\"index\\\">D.</span>Where</p><p hexid=\\\"\\\">(5)</p><p hexid=\\\"a4849024bca0898b94c0887c5e961394\\\"><span data-index=\\\"index\\\">A.</span>table</p><p hexid=\\\"f45072e13706d16e6e52e18fe83e3313\\\"><span data-index=\\\"index\\\">B.</span>chair</p><p hexid=\\\"170f3ce7619e9f1a26efb87a94a3ff6a\\\"><span data-index=\\\"index\\\">C.</span>sofa</p><p hexid=\\\"7b0d327f6368d76fc806943fbdccfa78\\\"><span data-index=\\\"index\\\">D.</span>bed</p><p hexid=\\\"\\\">(6)</p><p hexid=\\\"2ed23e4cc5df95c2bfd1e1cf6a72eb56\\\"><span data-index=\\\"index\\\">A.</span>OK</p><p hexid=\\\"8ca4ec7a5a197a39e75674b4847cf7c9\\\"><span data-index=\\\"index\\\">B.</span>Good</p><p hexid=\\\"43041402983eed9bd0e5774b599c72c3\\\"><span data-index=\\\"index\\\">C.</span>Yes</p><p hexid=\\\"d87a695a5a5f68734ccfbd37e2158d50\\\"><span data-index=\\\"index\\\">D.</span>No</p><p hexid=\\\"\\\">(7)</p><p hexid=\\\"5ae137f86c888d405a101642022afbab\\\"><span data-index=\\\"index\\\">A.</span>mine</p><p hexid=\\\"4d595f40eec7931094c97255a3480f94\\\"><span data-index=\\\"index\\\">B.</span>yours</p><p hexid=\\\"1b2f0d95142eaddfdba6426d5c933c5b\\\"><span data-index=\\\"index\\\">C.</span>his</p><p hexid=\\\"212c16a5134bd7eeebf7464a002ccc76\\\"><span data-index=\\\"index\\\">D.</span>her</p><p hexid=\\\"\\\">(8)</p><p hexid=\\\"069135a8ca596682d77d50aa7a3d7509\\\"><span data-index=\\\"index\\\">A.</span>from</p><p hexid=\\\"823ffe98aa9d672d2863b158f1ca2182\\\"><span data-index=\\\"index\\\">B.</span>under</p><p hexid=\\\"3c0573d138c72cdd69eb2ab20ef96bec\\\"><span data-index=\\\"index\\\">C.</span>to</p><p hexid=\\\"d505043906b70abdb503cb1ed7490193\\\"><span data-index=\\\"index\\\">D.</span>of</p><p hexid=\\\"\\\">(9)</p><p hexid=\\\"e0856f4a19ece9c784753a3c5d3352fe\\\"><span data-index=\\\"index\\\">A.</span>cousin</p><p hexid=\\\"b7fc3cfaff5ed2a8f01e693cf27983e5\\\"><span data-index=\\\"index\\\">B.</span>friend</p><p hexid=\\\"093fc3aa3c676739802f33d14d9d396c\\\"><span data-index=\\\"index\\\">C.</span>brother</p><p hexid=\\\"081f53e4906080e191e8e4cfaf010592\\\"><span data-index=\\\"index\\\">D.</span>father</p><p hexid=\\\"\\\">(10)</p><p hexid=\\\"c958d688df0b1dd3ea263853c4f92091\\\"><span data-index=\\\"index\\\">A.</span>asks</p><p hexid=\\\"b1d7284b1432465d0274ee2c8c4b41be\\\"><span data-index=\\\"index\\\">B.</span>says</p><p hexid=\\\"c7f613c7b79650ffdda2dd4a5abebbf5\\\"><span data-index=\\\"index\\\">C.</span>knows</p><p hexid=\\\"ac233068bc89a9a53a070b49ee7748f7\\\"><span data-index=\\\"index\\\">D.</span>meets</p>\",\"answer\":\"\"}",
+    "parentId": 0,
+    "exerciseId": 0,
+    "exerciseAliasTypeId": 863288434055,
+    "exerciseAliasTypeName": "选择填空",
+    "exerciseTypeId": 8,
+    "exerciseTypeName": "选择填空题",
+    "exerciseSubject": "<p hexid=\"ffff8a07ffaef6e7533868317169572e\">完形填空</p><p hexid=\"94ba9a377d5e4c864aa7028c41073d27\">Hello, my friends! My name is Betty Smith. I am an American(美国的) &nbsp;&nbsp;<span blankindex=\"1\" contenteditable=\"false\" unselectable=\"on\">__1__</span>&nbsp;. Now my parents, my brother and I live(居住) in Wuhan, China.&nbsp;</p><p hexid=\"caee0c672c93c689cb68d063a97da5c7\"></p><p hexid=\"9c2d769d37aa1f9a18b985e6e3362fee\">Here is a nice photo of my<span blankindex=\"2\" contenteditable=\"false\" unselectable=\"on\">__2__</span>&nbsp;. Look! Many books are in the &nbsp;&nbsp;<span blankindex=\"3\" contenteditable=\"false\" unselectable=\"on\">__3__</span>&nbsp;. A radio is in the bookcase, too. <span blankindex=\"4\" contenteditable=\"false\" unselectable=\"on\">__4__</span>&nbsp;is my schoolbag? It's on the table. My clock is on the<span blankindex=\"5\" contenteditable=\"false\" unselectable=\"on\">__5__</span>&nbsp;, too. My quilt is on the bed. Is my jacket on the bed, too? &nbsp;&nbsp;<span blankindex=\"6\" contenteditable=\"false\" unselectable=\"on\">__6__</span>&nbsp;, it's in my closet(衣柜).&nbsp;</p><p hexid=\"d5169e55ceb4bcc5f2b311d2f07ef1a2\"></p><p hexid=\"587a8b52648cf38ff30163533d9be69a\">What is that under the desk? Oh, it's a red model plane. It isn't<span blankindex=\"7\" contenteditable=\"false\" unselectable=\"on\">__7__</span>&nbsp;. It's David's. And a ball is<span blankindex=\"8\" contenteditable=\"false\" unselectable=\"on\">__8__</span>&nbsp;the chair. It's David's, too. Who is David? He is my&nbsp;<span blankindex=\"9\" contenteditable=\"false\" unselectable=\"on\">__9__</span>&nbsp;. He is five years old, and he often puts some of his toys in my room. He always <span blankindex=\"10\" contenteditable=\"false\" unselectable=\"on\">__10__</span>&nbsp;me, \"Sister, where is my ball? Where is my toy car? Where are my Lego bricks(积木)?\" This is my room. How about yours? Tell(告诉) me, please.</p><p hexid=\"7a3f6ec7885b2c33d1f6f41ff3eecc55\"></p>",
+    "option": [
+        {
+            "optionList": [
+                "<p hexid=\"47f26370349faec815f9d4ef3ab69e6b\">boy</p>",
+                "<p hexid=\"b64c3b6014c35747592f0a8bab6d4b4a\">girl</p>",
+                "<p hexid=\"daa53d7a76b812f627a1b9e986b35d05\">son</p>",
+                "<p hexid=\"0666fe34ec4ad4212636301966ecb8ef\">daughter</p>"
+            ],
+            "answer": "0100"
+        },
+        {
+            "optionList": [
+                "<p hexid=\"66bda22f36f409bab4d3ced44c7fdfa1\">family</p>",
+                "<p hexid=\"9f77d15aa4e5edbed5a70ccb0ac42bf2\">room</p>",
+                "<p hexid=\"70e22b36aa4939c44e4196c9088b670a\">school</p>",
+                "<p hexid=\"6f882ddef2b749154d49153b1cf07d33\">library</p>"
+            ],
+            "answer": "0100"
+        },
+        {
+            "optionList": [
+                "<p hexid=\"aa3073af984b77d6e7567a2800c517af\">desk</p>",
+                "<p hexid=\"f566556e7a504c2e2cddc928d8a9e499\">box</p>",
+                "<p hexid=\"73575d764780d972a9b9ca66d4e13396\">bookcase</p>",
+                "<p hexid=\"2ba0f6b0914b3c37c5547cbe3e6ac88e\">schoolbag</p>"
+            ],
+            "answer": "0010"
+        },
+        {
+            "optionList": [
+                "<p hexid=\"dbb285e0bcad3206cdcb108c425f18f6\">What</p>",
+                "<p hexid=\"7f87831395f8c12a795dfd778389d541\">How</p>",
+                "<p hexid=\"77a3fb540ac0b8b497b735dd02f0e9b8\">Who</p>",
+                "<p hexid=\"0b7eb270a66d1cb96b6b7693e2683af4\">Where</p>"
+            ],
+            "answer": "0001"
+        },
+        {
+            "optionList": [
+                "<p hexid=\"a4849024bca0898b94c0887c5e961394\">table</p>",
+                "<p hexid=\"f45072e13706d16e6e52e18fe83e3313\">chair</p>",
+                "<p hexid=\"170f3ce7619e9f1a26efb87a94a3ff6a\">sofa</p>",
+                "<p hexid=\"7b0d327f6368d76fc806943fbdccfa78\">bed</p>"
+            ],
+            "answer": "1000"
+        },
+        {
+            "optionList": [
+                "<p hexid=\"2ed23e4cc5df95c2bfd1e1cf6a72eb56\">OK</p>",
+                "<p hexid=\"8ca4ec7a5a197a39e75674b4847cf7c9\">Good</p>",
+                "<p hexid=\"43041402983eed9bd0e5774b599c72c3\">Yes</p>",
+                "<p hexid=\"d87a695a5a5f68734ccfbd37e2158d50\">No</p>"
+            ],
+            "answer": "0001"
+        },
+        {
+            "optionList": [
+                "<p hexid=\"5ae137f86c888d405a101642022afbab\">mine</p>",
+                "<p hexid=\"4d595f40eec7931094c97255a3480f94\">yours</p>",
+                "<p hexid=\"1b2f0d95142eaddfdba6426d5c933c5b\">his</p>",
+                "<p hexid=\"212c16a5134bd7eeebf7464a002ccc76\">her</p>"
+            ],
+            "answer": "1000"
+        },
+        {
+            "optionList": [
+                "<p hexid=\"069135a8ca596682d77d50aa7a3d7509\">from</p>",
+                "<p hexid=\"823ffe98aa9d672d2863b158f1ca2182\">under</p>",
+                "<p hexid=\"3c0573d138c72cdd69eb2ab20ef96bec\">to</p>",
+                "<p hexid=\"d505043906b70abdb503cb1ed7490193\">of</p>"
+            ],
+            "answer": "0100"
+        },
+        {
+            "optionList": [
+                "<p hexid=\"e0856f4a19ece9c784753a3c5d3352fe\">cousin</p>",
+                "<p hexid=\"b7fc3cfaff5ed2a8f01e693cf27983e5\">friend</p>",
+                "<p hexid=\"093fc3aa3c676739802f33d14d9d396c\">brother</p>",
+                "<p hexid=\"081f53e4906080e191e8e4cfaf010592\">father</p>"
+            ],
+            "answer": "0010"
+        },
+        {
+            "optionList": [
+                "<p hexid=\"c958d688df0b1dd3ea263853c4f92091\">asks</p>",
+                "<p hexid=\"b1d7284b1432465d0274ee2c8c4b41be\">says</p>",
+                "<p hexid=\"c7f613c7b79650ffdda2dd4a5abebbf5\">knows</p>",
+                "<p hexid=\"ac233068bc89a9a53a070b49ee7748f7\">meets</p>"
+            ],
+            "answer": "1000"
+        }
+    ],
+    "answer": null
+}

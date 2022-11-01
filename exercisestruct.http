@@ -217,32 +217,36 @@ Content-Type: application/json
 Post  http://localhost:10005/Exercise/SaveStructExercise?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
 Content-Type: application/json
 
-{
-"ExerciseId": "12",
-"ExerciseAliasTypeId": "3006478659715",
-"ExerciseTypeId": "12",
-"ExerciseAliasTypeName": "111",
-"ExerciseTypeName": "作文题",
-"ExerciseSubject": "111",
-"ExerciseAliasTypeName": "111",
-"Option":  {
-                           "WordNumber": "20" ,
-                            "Style": "0" //0无样式 1作文  2四线三格  
+# {
+# "ExerciseId": "12",
+# "ExerciseAliasTypeId": "3006478659715",
+# "ExerciseTypeId": "12",
+# "ExerciseAliasTypeName": "111",
+# "ExerciseTypeName": "作文题",
+# "ExerciseSubject": "111",
+# "ExerciseAliasTypeName": "111",
+# "Option":  {
+#                            "WordNumber": "20" ,
+#                             "Style": "0" //0无样式 1作文  2四线三格  
                          
-   },
-"Answer": {
-                           "AnswerType": "0" , //0文本 1图片
-                            "AnswerContent": "递进2"    //AnswerType=0 AnswerContent传字符串                                                                                         //AnswerType=1 AnswerContent传数组 
-          }
+#    },
+# "Answer": {
+#                            "AnswerType": "0" , //0文本 1图片
+#                             "AnswerContent": "递进2"    //AnswerType=0 AnswerContent传字符串                                                                                         //AnswerType=1 AnswerContent传数组 
+#           }
  
-}
+# }
+
+
+{"exerciseId":3032246948045,"exerciseTypeAliasId":863288428623,"exerciseTypeAliasName":"综合题","exerciseTypeId":5,"exerciseTypeName":"组合题","exerciseSubject":"<p hexid=\"2bb5a887969ea26f576cc165b91cc9c2\">1</p>","option":[{"exerciseId":3032246948047,"exerciseTypeAliasId":863288426577,"exerciseTypeAliasName":"单选题","exerciseTypeId":1,"exerciseTypeName":"单选题","exerciseSubject":"<p hexid=\"7573aa50917514c8b2e4fff750ef1352\">2</p>","option":[{"optionType":0,"optionContent":"<p hexid=\"990052c8fd468d1ad1f8f9dbe61251c7\">3</p>"},{"optionType":0,"optionContent":"<p hexid=\"b57ed7683551b878611d1fd66096658f\">4</p>"},{"optionType":0,"optionContent":"<p hexid=\"0db96eeef980b047fd0217b5a09c185a\">5</p>"},{"optionType":0,"optionContent":"<p hexid=\"b4cdabd34ba05d3db03e097f55503150\">6</p>"}],"answer":"1000","show":true}],"answer":null}
+
 
 
 ###
 Post http://localhost:10005/Exercise/GetExercisesByIds?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747&content=15127617235&pageIndex=1&pageSize=10
 content-type: application/json
 
- [3032246948017]
+ [3032246948045]
 
 
 

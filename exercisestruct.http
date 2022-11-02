@@ -342,7 +342,7 @@ Post http://{{host}}/Exercise/GetExercisesByIds?ssotoken=9C49EBBAC398411E551A1AA
 content-type: application/json
 
  [
-    3032246947850
+    3032246947901
 ]
 
 

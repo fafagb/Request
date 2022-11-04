@@ -64,55 +64,128 @@ Content-Type: application/json
 Post  http://{{host}}/Exercise/SaveStructExercise?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747
 Content-Type: application/json
 
-{
-    "ExerciseId": "128",
-    "ExerciseAliasTypeId": "3006478659715",
-    "ExerciseTypeId": "2",
-    "ExerciseAliasTypeName": "111",
-    "ExerciseTypeName": "填空题",
-    "ExerciseSubject": "111",
-    "ExerciseAliasTypeName": "111",
-    "Answer": [                {
-                 
-                    "AnswerList": [
-                        {
-                            "AnswerType": "0", //0文本 1图片
-                            "Answer": "递进1"
-                        
-                },
-                       {
-                            "AnswerType": "1", //0文本 1图片
-                            "Answer": "图片Id"
-                        
-                }
+# {
+#     "ExerciseId": "128",
+#     "ExerciseAliasTypeId": "3006478659715",
+#     "ExerciseTypeId": "2",
+#     "ExerciseAliasTypeName": "111",
+#     "ExerciseTypeName": "填空题",
+#     "ExerciseSubject": "111",
+#     "ExerciseAliasTypeName": "111",
+#     "Answer": [                {
+#                  
+#                     "AnswerList": [
+#                         {
+#                             "AnswerType": "0", //0文本 1图片
+#                             "Answer": "递进1"
+#                         
+#                 },
+#                        {
+#                             "AnswerType": "1", //0文本 1图片
+#                             "Answer": "图片Id"
+#                         
+#                 }
 
-                    
-            ]
-                  
-                
-        },
-                {
-               
-                    "AnswerList": [
-                        {
-                           "AnswerType": "0", //0文本 1图片
-                            "Answer": "递进2"
-                        
+#                     
+#             ]
+#                   
+#                 
+#         },
+#                 {
+#                
+#                     "AnswerList": [
+#                         {
+#                            "AnswerType": "0", //0文本 1图片
+#                             "Answer": "递进2"
+#                         
+#                 },
+#                 {
+#                             "AnswerType": "1", //0文本 1图片
+#                             "Answer": "图片Id"
+#                         
+#                 }
+
+#                     
+#             ]
+#                   
+#        
+#         }
+#     ]
+# }
+{
+    "exerciseId": 3032247158702,
+    "exerciseTypeAliasId": 863288428623,
+    "exerciseTypeAliasName": "综合题",
+    "exerciseTypeId": 5,
+    "exerciseTypeName": "组合题",
+    "exerciseSubject": "<p hexid=\"43bb68e30aa9fff065a365d1b8591366\">1</p>",
+    "option": [
+        {
+            "codeSnippet": "{\"subject\":\"<p hexid=\\\"43bb68e30aa9fff065a365d1b8591366\\\">1</p>\",\"answer\":\"\"}",
+            "parentId": 3032247158702,
+            "exerciseId": 3032247413149,
+            "exerciseTypeAliasId": 863288426577,
+            "exerciseTypeAliasName": "单选题",
+            "exerciseTypeId": 1,
+            "exerciseTypeName": "单选题",
+            "exerciseSubjectContent": "",
+            "exerciseSubject": "<p hexid=\"8119146476bfab4123e44f12abd61b41\">1</p>",
+            "option": [
+                {
+                    "optionType": 0,
+                    "optionContent": "<p hexid=\"4db525d59517757d4caef27cf3ee5aa9\">1</p>"
                 },
                 {
-                            "AnswerType": "1", //0文本 1图片
-                            "Answer": "图片Id"
-                        
+                    "optionType": 0,
+                    "optionContent": "<p hexid=\"2d8d681299cab5eebddc132f42d6433f\">1</p>"
+                },
+                {
+                    "optionType": 0,
+                    "optionContent": "<p hexid=\"b65b6ce07ba7f5602ea2f6d95985cd14\">1</p>"
+                },
+                {
+                    "optionType": 0,
+                    "optionContent": "<p hexid=\"2643a4e3d08ff4e3af5722652aab8015\">1</p>"
                 }
-
-                    
-            ]
-                  
-       
+            ],
+            "answer": "\"0001\"",
+            "operationType": 1
+        },
+        {
+            "parentId": 3032247158702,
+            "exerciseId": null,
+            "exerciseTypeAliasId": 863288426577,
+            "exerciseTypeAliasName": "单选题",
+            "exerciseTypeId": 1,
+            "exerciseTypeName": "单选题",
+            "exerciseSubjectContent": "",
+            "exerciseSubject": "<p hexid=\"8119146476bfab4123e44f12abd61b41\">1</p>",
+            "option": [
+                {
+                    "optionType": 0,
+                    "optionContent": "<p hexid=\"4db525d59517757d4caef27cf3ee5aa9\">1</p>"
+                },
+                {
+                    "optionType": 0,
+                    "optionContent": "<p hexid=\"2d8d681299cab5eebddc132f42d6433f\">1</p>"
+                },
+                {
+                    "optionType": 0,
+                    "optionContent": "<p hexid=\"b65b6ce07ba7f5602ea2f6d95985cd14\">1</p>"
+                },
+                {
+                    "optionType": 0,
+                    "optionContent": "<p hexid=\"2643a4e3d08ff4e3af5722652aab8015\">1</p>"
+                }
+            ],
+            "answer": "0011",
+            "operationType": 0,
+            "id": "exercise2952102488973882",
+            "show": true
         }
-    ]
+    ],
+    "answer": null
 }
-
 
 
 
@@ -337,12 +410,96 @@ Content-Type: application/json
 #     "answer": null
 # }
 
+{
+    "id": "exercise18787944280901203",
+    "exerciseId": 3032247407638,
+    "exerciseTypeAliasId": 863288428623,
+    "exerciseTypeAliasName": "综合题",
+    "exerciseTypeId": 5,
+    "exerciseTypeName": "组合题",
+    "exerciseSubject": "<p hexid=\"79685619b09ad4c5015e2fda043eecd6\">retro</p>",
+    "option": [
+        {
+            "id": "exercise5024941346194911",
+            "show": true,
+            "exerciseTypeId": 1,
+            "option": [
+                {
+                    "optionType": 0,
+                    "optionContent": "<p hexid=\"86f01177034a1c7cfe4400d1be2e13f4\">1</p>"
+                },
+                {
+                    "optionType": 0,
+                    "optionContent": "<p hexid=\"08471159c6fd64a9999f92b4e0f08283\">2</p>"
+                },
+                {
+                    "optionType": 0,
+                    "optionContent": "<p hexid=\"ac521fd84e0117139426bcabeb922754\">3</p>"
+                },
+                {
+                    "optionType": 0,
+                    "optionContent": "<p hexid=\"75108f9d57ad736c9c13507a8553b3c3\">4</p>"
+                }
+            ],
+            "answer": "0001",
+            "exerciseSubject": "<p hexid=\"c40d014f34ef97ca499b5053af66f12c\">棒棒糖</p>",
+            "exerciseTypeAliasName": "单选题",
+            "exerciseTypeAliasId": 863288426577
+        },
+        {
+            "id": "exercise02929646621012738",
+            "exerciseId": null,
+            "exerciseTypeAliasID": 863288426577,
+            "exerciseTypeId": 4,
+            "exerciseTypeName": "多选题",
+            "exerciseSubject": "<p hexid=\"1fd82e902365c4cdb8cd3d601ddc0578\">热很</p>",
+            "option": [
+                {
+                    "OptionType": 0,
+                    "OptionContent": "<p hexid=\"8b2916bf342115cc2d2ca384126e2a91\">11</p>"
+                },
+                {
+                    "OptionType": 0,
+                    "OptionContent": "<p hexid=\"c5940c78d32960dc8a4d1f13814072b9\">22</p>"
+                },
+                {
+                    "OptionType": 0,
+                    "OptionContent": "<p hexid=\"dd856ce8a8be0e9a52a264750ce4eeff\">33</p>"
+                },
+                {
+                    "OptionType": 0,
+                    "OptionContent": "<p hexid=\"181c2d60fad9eba153bdcb6560a38746\">44</p>"
+                },
+                {
+                    "OptionType": 0,
+                    "OptionContent": "<p hexid=\"0131e4ce516456fdc5300064567eb48e\">55</p>"
+                },
+                {
+                    "OptionType": 0,
+                    "OptionContent": "<p hexid=\"cb8679b21e87fc61297f3017cd47124c\">66</p>"
+                },
+                {
+                    "OptionType": 0,
+                    "OptionContent": "<p hexid=\"a40d60df79fc6d06bc9693b93866e585\">77</p>"
+                }
+            ],
+            "answer": "0000011",
+            "show": true,
+            "exerciseTypeAliasName": "多选题",
+            "exerciseTypeAliasId": 863288470014
+        }
+    ],
+    "answer": null
+}
+
+
+
 ###
 Post http://{{host}}/Exercise/GetExercisesByIds?ssotoken=9C49EBBAC398411E551A1AAC1F0A53D24409B333312CB0EF9E3605DA1254108ADA6C9B4C1100716D849611900B0370A6D3238684AE358C7C2E2C186768CEE52C3E66F726DA169B5AAFF08EFE394A7183608826586D205861A05D5587E511EC203154D5F86E97CC098DFBF1DC56ACCBD70422893C0B8CA6992314602A005A0B5419E67748FDA1B747&content=15127617235&pageIndex=1&pageSize=10
 content-type: application/json
 
  [
-    3032246947901
+    3032247158702
 ]
 
 

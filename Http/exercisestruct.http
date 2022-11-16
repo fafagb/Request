@@ -603,8 +603,16 @@ Content-Type: application/json
 Post {{protocol}}://{{host}}/Exercise/GetExercisesByIds?ssotoken={{ssotoken}}
 content-type: application/json
 
- [
-    3032247158702
+[
+  3032247413445,
+  3032247413592,
+  3032247413575,
+  3032247413651,
+  3032247413671,
+  3032247413466,
+  3032247413142,
+  3032247413591,
+  3032247413462
 ]
 
 

@@ -875,6 +875,8 @@ Content-Type: application/json
 
 ###
 {{protocol}}://{{host}}/Exercise/GetExerciseAliasType?ssotoken={{ssotoken}}&typeid=1
+###
+{{protocol}}://{{host}}/ExercisePoolPage/Exercise?ssotoken={{ssotoken}}&typeid=1
 
 
 

@@ -1,4 +1,4 @@
-DELETE exerciseindex/_doc/KvTMdoUBLFajYtC9b_ce
+// DELETE exerciseindex/_doc/KvTMdoUBLFajYtC9b_ce
 
 
 

@@ -921,7 +921,7 @@ Content-Type: application/json
 Post {{protocol}}://{{host}}/ExercisesPool/GetSchoolExercisePool?ssotoken={{ssotoken}}
 Content-Type: application/json
 
-{"PageIndex":1,"PageSize":10}
+{"ChapterId":1374390102481,"PageIndex":1,"PageSize":10}
 
 {"ChapterId":555,"PageIndex":1,"PageSize":10,"Content":"进行加减乘除运算"}
 

@@ -19,6 +19,120 @@
 Post  {{protocol}}://{{host}}/Exercise/SaveStructExercise?ssotoken={{ssotoken}}
 Content-Type: application/json
 
+{
+  "difficult": 0,
+  "error": 0,
+  "usePeopleNum": 0,
+  "chapterId": 0,
+  "codeSnippet": "ᯡࡓ䅼Ҁ⬥ᠸ怷ࠥ愠㰠㠠䀫ᰠ㰤堢〷䀮䑲ːԀàᶱ䂌ĸᰡ抮lӔí簣ᦊᡪ䊦悬㢃ᰠᘮ樠粡₉䃿棠֓⁬槀౟瀾浰ջ栮窸Ʊ䣠ཥ仄-Р↠ᶸᰠ❔၀ဠ ",
+  "parentId": 0,
+  "exerciseId": 3032247540093,
+  "exerciseTypeAliasId": 863288428623,
+  "exerciseTypeAliasName": "综合题",
+  "exerciseTypeId": 5,
+  "exerciseTypeName": "组合题",
+  "eName": "compute",
+  "exerciseSubjectContent": "",
+  "exerciseSubject": "<p hexid=\"d590706118be2c5f235035bb6c3f0e41\">阅读材料，回答问题</p>",
+  "option": [
+    {
+      "difficult": 0,
+      "error": 0,
+      "usePeopleNum": 0,
+      "chapterId": 0,
+      "codeSnippet": "ᯡࡓ䅼Ҁ⬥ᠸ怷ࠥ愠㰠㠠䀫ᰠ㰤堢〷䀮䐡䰡堤ᡐೠጠؠᰣ夈˩柦咴㍘ᬍ䴉投㐇5䫪ᒠ❕^₀Ķ䀪fj₅忀Ъ倠䣰೻⠴缈ٝࠣ␦ɴoᨠ⮺ʆ䴠ą冠炆䂁㥠ü倢❈Ƞ㌊夽ظᘦ嬿Ѧ⋁ˈᔈ傼㨩㭋ὴ䃩悇檐ᔀ˼㡙✼ਪܮ搄梃ࠡ㘠猼ᠠৡષ䉢ↁ䅰ㅑ㰠ហᚠހߕ䱌竺ఠᮉ吤Ġඇɠǰऩ䰰␨ོā୓੃䈗࣠瀠䥮䲞亻䃄桱緱䪜⬻䕉磊㬯᐀戠ᢠࡎ惱バ‪ᕳ℠ࢠс䝂琥ᕩ拉ㄈ㌷怡䊔㑚๤桔⪠狢昽㔧щာ㓹䙁嚐㓥ᛁ䬀累䈰纙ᴥ䠣峨␾ળ偁ᙻᇯ䲚戧ⱥ䷆榉୏䬘Բ僧㏆喚姎䰨疀檵ㇲᙸҠŜ㳴喈⎊㋜ᔯ偢r୮ჰ䄖ࠡ䖹䂲䏭Ӣ烧㽄Ѓ㣄ഡԂ䢔ȵ⎣ᣉ次ǁᡙ㕯ྀჼ㌭䟰嬍᝷堋⢣ヴ㜹⚓⋹㕸㙻⻿㉙ࣇ㧲盚漗⏹玘㨿៧灔ᓅџ✂Ԍ⟸ఘ成扅୥ㅘ幀䩄䨄敚䷇榬獄և഼均䰄⠢繁ဂ䔰灊⬗斪瘙ⵕ唭◈畝ⵣ㡵෡ള⚉ë✣ⵄલ絣∠ቀ戠ဠ ",
+      "parentId": 3032247540093,
+      "exerciseId": 3032247540094,
+      "exerciseTypeAliasId": 863288433875,
+      "exerciseTypeAliasName": "简答题",
+      "exerciseTypeId": 3,
+      "exerciseTypeName": "简答题",
+      "eName": "",
+      "exerciseSubjectContent": "",
+      "exerciseSubject": "<p hexid=\"36aaf208764843dbfe30f6e824e52bd9\">  (1)结合所学知识,分析材料一说明了什么。(2分)</p><p hexid=\"956b8630021da8a185e487e248ebbe04\"><img src=\"#\" data-file-id=\"85903644350026\" width=\"600\" data-origin-width=\"645\" data-origin-height=\"295\" style=\"max-width:100%\"/></p>",
+      "option": null,
+      "answer": {
+        "answerType": 0,
+        "answerContent": "<p hexid=\"5f31feba62673eefe187216f73e68ede\"><img src=\"#\" data-file-id=\"85903644350027\" width=\"600\" data-origin-width=\"797\" data-origin-height=\"105\" style=\"max-width:100%\"/></p>"
+      },
+      "operationType": 0,
+      "questionItemID": 1
+    },
+    {
+      "difficult": 0,
+      "error": 0,
+      "usePeopleNum": 0,
+      "chapterId": 0,
+      "codeSnippet": "ᯡࡓ䅼Ҁ⬥ᠸ怷ࠥ愠㰠㠠䀫ᰠ㰤堢〷䀮䐠ᰡ䰦〤怳䍴Ǹ䲗■Ⱑ఼ಈQᡓ灪₠სό䃆ǴęƠѺH䰢⤢㡍č䚠ଆ䂹占ᣙₛ狀⨛䀭၉糰ᬃ⠰݈ϣ否䠔Ɏ䘢䁒嵝Ë᭠߂债èī㨡滼ᆠ穓†湰Ňဧ琊à䨦ఠ㴶ͻྤ⍂傠旸琨㹱͉֠ૡ採倪䒉糒⡆ᐫᅣ䍡⪄梃ࠡ㘠猼ᠠৡ౷䉢ↁ䅰她㰠ហᚠހߒ漎➧㈠ᬭ吤Ġඇɠǰन琰␨⓼ᜁו䩃䍯࣠瀠ቬ㋨ъܶ唱磕⵩䊉硔⭶偤ӕ©勨@䫍䘐Ⱐᑥ䓤B0䲸Ⓣ㕖֭䚃擞,ᅲㆸ慁䂀壗ᘫ㔻⡘⤶≢搻ᴸ䙙总ᅺ䇂極ય䐀ᢰ碦䐴Ď㈲ަᑴ先䡎୥ථ楖ᅦ戶懖歨嶞嚮ᩥ㆙妎婖Ʌ坖ᕸᕀ嘢†佉㣄㨱㚽⼪䍕∠ᒰ㇨㑀Τֱ㚀⛗獢ヘ϶⤠⫄ⱉ䊁⪵ጭਃ桌ጮ䅰ႌ㡀⁣橰⃤㜹♓㔮べᙋ㫻㏸๧⧼狘漗ᄩ熙帿៧琘Ǡ棴༦⇰浡䅲媜⽴堳ᔬܯ䋦焬㹈䥄⥴䵎䢅᧌筓伆稜珔梵╒䔮⡴瞃曊塍┻畣⨚崫█浛ℋ⠮௲⃓ⴤ㵏⩐綊ˀذޱጰ\"粠  ",
+      "parentId": 3032247540093,
+      "exerciseId": 3032247540095,
+      "exerciseTypeAliasId": 863288433875,
+      "exerciseTypeAliasName": "简答题",
+      "exerciseTypeId": 3,
+      "exerciseTypeName": "简答题",
+      "eName": "",
+      "exerciseSubjectContent": "",
+      "exerciseSubject": "<p hexid=\"8f3298b727f9417380234cdcac7a1261\">  (2)根据材料二可知,查士丁尼编订《查士丁尼法典》的目的是什么?(2分)</p><p hexid=\"dc8bfc403d957e810894ab2b97a78c42\"><img src=\"#\" data-file-id=\"85903644350028\" width=\"600\" data-origin-width=\"651\" data-origin-height=\"296\" style=\"max-width:100%\"/></p>",
+      "option": null,
+      "answer": {
+        "answerType": 0,
+        "answerContent": "<p hexid=\"b1e09f3ac5224b0e351d13bfaf9ac1e1\"><img src=\"#\" data-file-id=\"85903644350029\" width=\"600\" data-origin-width=\"778\" data-origin-height=\"62\" style=\"max-width:100%\"/></p>"
+      },
+      "operationType": 0,
+      "questionItemID": 2
+    },
+    {
+      "difficult": 0,
+      "error": 0,
+      "usePeopleNum": 0,
+      "chapterId": 0,
+      "codeSnippet": "ᯡࡓ䅼Ҁ⬥ᠸ怷ࠥ愠㰠㠠䀫ᰠ㰤堢〷䀮䐠ᰢ复ᩴ8ǐހೠ䀶ᐡᲣ⒛堤〤ᦐࡡ恍剷㔠㹠怢⪠੎´䂼ୠ㮃‥㧀⚉偄๰م⠠⒈ڍ吪㾔̾䐡刣ŊG䴠皭-䪡㖚䄁占㒅‱彰¤㐡ךȓ䪠ϕ‰ƣ⯬盰怣棑䫸籂ᤵФ⟠䕀䠡䱄lᙙᲷਬ⡳╁傒擹禐ኤപ䌸䀫〧ᤁ䀠丨泜ሲବત䩫怡㰡㐠㬠㶲疐㷱အ塍⁀ࠠ歘ሠຠ䡨⢢⁢܁✨◄儼ᢘ䘧$䨕ዥᲔᙏå瀤īݡᒈ偸䙰炁⒠ـȨ塼ቄࠢ䐤ѠɀĪ焸嬮䀱Ⅸ䉏฀â㘢Ⴈ拘楉斢⶚樮r⁄ׁⱦ洀ֶⵧ僡⸻௥烘ዧ㈠睒ध䎄氶ᙲ቎ↂ娭䑾墤塌૲ॲ囋泮㮻堋ڥ䂯喭夲垦插恄)砇㉻ℸ汵烈᢭⠢䥚ᓒ䈤㡠ल昣䭾㑆஠岥ဢ¤ᓸԷń〤ኩ◥炈㠫ɰ䣀⸸䜡ʈኧɴᔪ亯⿲౦樸慒䲆秒曐泖州撑ᷮ∵掓尾➫朐緞廏瀔ȸኀዡ傈ㅄ彄䬱ᑺ᦮搑䊑ᩨ৩䩭ᝨ㊹ᙻᇊ媙㹠庹ୱ熄嵉堅䃥⧊䭫⭺㵠椺፬欪ᨽ⪊浦桡筮ɚ␹橢ࣵႠ7搠 ",
+      "parentId": 3032247540093,
+      "exerciseId": 3032247540096,
+      "exerciseTypeAliasId": 863288433875,
+      "exerciseTypeAliasName": "简答题",
+      "exerciseTypeId": 3,
+      "exerciseTypeName": "简答题",
+      "eName": "",
+      "exerciseSubjectContent": "",
+      "exerciseSubject": "<p hexid=\"855ddb0673c4b9b9d3c061a39c7961a3\">  (3)根据材料三和所学知识,分析拜占庭文化形成的原因。(4分)</p><p hexid=\"d3c4cdafa2079793b1f8d87c76cde2c8\"><img src=\"#\" data-file-id=\"85903644350030\" width=\"600\" data-origin-width=\"660\" data-origin-height=\"246\" style=\"max-width:100%\"/></p>",
+      "option": null,
+      "answer": {
+        "answerType": 0,
+        "answerContent": "<p hexid=\"e89926c6e09aa008b4cd43be296a1c85\"><img src=\"#\" data-file-id=\"85903644350031\" width=\"600\" data-origin-width=\"880\" data-origin-height=\"228\" style=\"max-width:100%\"/></p>"
+      },
+      "operationType": 0,
+      "questionItemID": 3
+    },
+    {
+      "difficult": 0,
+      "error": 0,
+      "usePeopleNum": 0,
+      "chapterId": 0,
+      "codeSnippet": "ᯡࡓ䅼Ҁ⬥ᠸ怷ࠥ愠㰠㠠䀫ᰠ㰤堢〷䀮䐠ಐނ䀻6Ìᛀӯ▶ȹ㠤〤烰⊀䡌⮠᧌䂆⥥樠粡䀤甠ᑌŉ䚠۪䃕㵠屝ⁿ嫀᯾偍濰ਮ⠸Ⳉ̇否๴ʞ⨣枊Ȉ產愅ư映㒠ចؠẫ્䟢ᆱ⡠Ⲑᅘⳉ඾䗥抂૩憤ⰪՈଳ঱䍠厀↷棵ĉ絠̲倬ᝈ#䨡⤅ė敠፡値ᜈٻ稠ҕ`٠✥倮沈2ᨡ䷕Ç睠ᤔ㿰ᔯ٤ࡨᓴᅹࢳᒿ俤栃䄩Ѹ≢іࣅ⚨徺⌁向Ⅸ䊊䀲璀ம⠥柴β㓚䚆㦣琠܅)᳀֯ᐣ⩂湑倭䩒ⱂ届挶倰з§刘穌䱀ᖄℳ 爽ᝆ஦慠ੑᾦ愨灘൨̣琠繠ʽ⺄Ť榠ỷ倩ழů⚠ᓻ倠῔F๽‪㝈ɲ㘜䁆繐ӻ稡ࡦ猢ዖ䗶ဢ੧Ᏺ☴ୃヸ刼ߊ焀ᩎႢ䁊ͨ䔦㳸☺䠣䫺㵠࿚ᠣሊÆ猦䰸ϰ唠⹯େ␡䂵㨤␯炡簠໬#崀3䴩䅃櫸䜸၉粄庯⏂ഝ兮䨆ੁ܍懡筈ൡ䌰{<掣Ƴь➢₰ⰸડѢ㰠؀˲挠㷌㥞✻縠Ίᵠဤ-㎡ဠᵊ歀䂰ࡒ㜤渰壨②☰戸ܠńⶰ傿⇐㝧⚣戲ਢ泄ᄳⱂ⑀ä@䳂Ǉ%ࢨ@¨Aాʸ◤⑤ူ΀䬠Ƥ䰠ࠣ悞ℱ᮶֭䷕ǡ㬲ࠁ⏌䙁玼Լ⢨Ʌ᜹▀祓獈尹࡬搲ϡㄳǀ㐹ࣂ呤癭䑓㙁㇈爃␿ඩ䲐䤡撟Ӄ⏘䲳劈灁ኗ㖩≕℠ᄸ╰†ؒ  ",
+      "parentId": 3032247540093,
+      "exerciseId": 3032247540097,
+      "exerciseTypeAliasId": 863288433875,
+      "exerciseTypeAliasName": "简答题",
+      "exerciseTypeId": 3,
+      "exerciseTypeName": "简答题",
+      "eName": "",
+      "exerciseSubjectContent": "",
+      "exerciseSubject": "<p hexid=\"0e7b6454b2744a2190c6ca2902ff3df3\">  (4)拜占庭帝国延续上千年历史实属不易,却</p><p hexid=\"4e9efd572261fe21433b4667b035c037\">得到了一个可悲的结局。根据所学知识,你</p><p hexid=\"9f96daa6ae11491c59c004633d20abd1\">认为强大的拜占庭帝国为什么会被历史所抛</p><p hexid=\"cc2c7a7f213bf168ae59625b390a51ee\">弃?在国际竞争日益激烈的今天,这给我国</p><p hexid=\"cd62226bf55de6b2e0f2cb5cf59bbd56\">济建设带来了什么启示?(4分)</p>",
+      "option": null,
+      "answer": {
+        "answerType": 0,
+        "answerContent": "<p hexid=\"54b68d1c9b191e3104984644787db672\"><img src=\"#\" data-file-id=\"85903644350032\" width=\"600\" data-origin-width=\"850\" data-origin-height=\"197\" style=\"max-width:100%\"/></p>"
+      },
+      "operationType": 0,
+      "questionItemID": 4
+    }
+  ],
+  "answer": "",
+  "operationType": 0,
+  "questionItemID": 0
+}
+
 # {
 #     "ExerciseId": "123",
 #     "ExerciseAliasTypeId": "3006478659715",
@@ -921,6 +1035,23 @@ Content-Type: application/json
 Post {{protocol}}://{{host}}/ExercisesPool/GetSchoolExercisePool?ssotoken={{ssotoken}}
 Content-Type: application/json
 
+{"chapterId":1374390106466,"exerciseAliasTypeId":0,"content":"","difficult":-1,"used":0,"pageIndex":1,"pageSize":10,"sort":0} 
+{"chapterId":1374390106408,"exerciseAliasTypeId":0,"content":"","difficult":-1,"used":0,"pageIndex":1,"pageSize":30,"sort":0}
+
+{"chapterId":1374390106402,"exerciseAliasTypeId":0,"content":"","difficult":-1,"used":0,"pageIndex":1,"pageSize":30,"sort":0}
+
+{"chapterId":1374390105322,"exerciseAliasTypeId":863288433875,"content":"","difficult":-1,"used":0,"pageIndex":1,"pageSize":10,"sort":0}
+	
+
+{"chapterId":1374390106402,"exerciseAliasTypeId":0,"content":"","difficult":-1,"used":0,"pageIndex":1,"pageSize":30,"sort":0}
+
+{"chapterId":1374390106400,"exerciseAliasTypeId":0,"content":"","difficult":-1,"used":0,"pageIndex":3,"pageSize":10,"sort":0}
+
+{"chapterId":1374390106400,"exerciseAliasTypeId":0,"content":"","difficult":0,"used":0,"pageIndex":1,"pageSize":10,"sort":0}
+
+
+
+
 {"ChapterId":1374390102481,"PageIndex":1,"PageSize":10}
 
 {"ChapterId":555,"PageIndex":1,"PageSize":10,"Content":"进行加减乘除运算"}
@@ -943,5 +1074,16 @@ Content-Type: application/json
 
 ###
 {{protocol}}://{{host}}/ExercisesPool/TestESId?ssotoken={{ssotoken}}
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -168,7 +168,7 @@ Post exercisestructindex/_search
                 },
                 {
                     "match":{
-                        "charpterIds": 1374390106403
+                        "charpterIds": 1374390105464
                     }
                 }
             ]

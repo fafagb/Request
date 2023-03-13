@@ -1073,7 +1073,11 @@ Content-Type: application/json
 {{protocol}}://{{host}}/ExercisesPool/GetExerciseTypeAliasBySubject?subjectId=2&ssotoken={{ssotoken}}
 
 ###
-{{protocol}}://{{host}}/ExercisesPool/TestESId?ssotoken={{ssotoken}}
+{{protocol}}://{{host}}/ExercisesPool/TestESId?ssotoken={{ssotoken}}&pageIndex=1&pageSize=10
+###
+{{protocol}}://{{host}}/Exercise/Test?ssotoken={{ssotoken}}&pageIndex=1&pageSize=10
+###
+{{protocol}}://{{host}}/Exercise/GetExerciseType?ssotoken={{ssotoken}}&pageIndex=1&pageSize=10
 
 
 

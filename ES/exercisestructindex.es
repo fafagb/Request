@@ -163,12 +163,7 @@ Post exercisestructindex/_search
             "must":[
                 {
                     "match":{
-                        "parentID": 0
-                    }
-                },
-                {
-                    "match":{
-                        "charpterIds": 1374390105464
+                        "usePeopleNum": 6
                     }
                 }
             ]

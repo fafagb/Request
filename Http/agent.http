@@ -16,3 +16,14 @@
 
 ###
 http://localhost:10025/PersonalizedManual/Class/GetEChapter?ssotoken={{ssotoken}}
+
+
+
+
+
+
+###
+Post https://www.hexfuture.cn/routeapi/ExercisesPool/GetSchoolExercisePool?ssotoken=F908601370F86E678A9EC3608A721CD912D417ACBD0975ABA27313D9916CD6C7120DF496FEEAEB01A9AB25947B6E90A7829E02B4633AA4487123085EDE9A810030B2DA65E30CD995F5A2AE737833B8F8E8A5E710B8C238D5D12917694EAF59088998A89A2CE1F3540AE45D096F8E0DDB
+Content-Type: application/json
+
+{"chapterId":90198609024011,"exerciseAliasTypeId":0,"content":"","difficult":-1,"used":0,"pageIndex":1,"pageSize":10,"sort":0}

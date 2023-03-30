@@ -1081,7 +1081,18 @@ Content-Type: application/json
 
 
 
+###
+Post {{protocol}}://{{host}}/ExercisesPool/GetSchoolExercisePool?ssotoken={{ssotoken}}
+Content-Type: application/json
 
+{"chapterId":1374390105464,"exerciseAliasTypeId":0,"content":"","difficult":-1,"used":0,"pageIndex":1,"pageSize":10,"sort":0} 
+
+
+###
+Post {{protocol}}://{{host}}/ExercisesPool/GetSchoolExercisePool?ssotoken={{ssotoken}}
+Content-Type: application/json
+
+{"chapterId":90198609024011,"exerciseAliasTypeId":0,"content":"","difficult":-1,"used":0,"pageIndex":1,"pageSize":10,"sort":0}
 
 
 

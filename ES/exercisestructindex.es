@@ -62,29 +62,6 @@ Post exercisestructindex/_search
 }
 
 
-Post exercisestructindex/_delete_by_query?pretty
-{
-  "query":{
-    "match":{"exerciseTypeAliasId":0}
-    
-  }
-  
-}
-Post exercisestructindex/_delete_by_query?pretty
-{
-  "query":{
-                "terms":{
-                    "exerciseId": [
-3032246947905,3032246947904,3032246947897
-
-      ]
-                }
-        
-
-    
-  }
-  
-}
 
 
 
@@ -92,14 +69,9 @@ Post exercisestructindex/_delete_by_query?pretty
 
 
 
-Post exercisestructindex/_delete_by_query?pretty
-{
-  "query":{
-    "match":{"exerciseTypeAliasId":0}
-    
-  }
-  
-}
+
+
+
 
 
 
@@ -173,6 +145,50 @@ Post exercisestructindex/_search
 }
 
 
+
+Post exercisestructindex/_search
+{
+    "from": 1, 
+    "size": 100,
+    "query":{
+        "bool":{
+            "must":[
+                {
+                    "match":{
+                        "charpterIds": 1374390106405
+                    }
+                }
+            ]
+        
+        }
+    }
+}
+
+
+
+
+
+Post exercisestructindex/_search
+{
+    "query":{
+        "bool":{
+            "must":[{
+                "terms":{
+                    "chapterIds": [
+90198609023994
+
+      ]
+                }
+            }]
+        }
+    }
+}
+
+
+
+
+
+
 // 分页
 Post exercisestructindex/_search
 {
@@ -230,6 +246,67 @@ Post exercisestructindex/_search
 
 
 
+
+
+
+//查询chapterIds不为空的数据
+Post exercisestructindex/_search
+{
+    "query":{
+        "bool":{
+            "must_not": [
+        {
+         "match": {
+           "chapterIds": 0
+         } 
+          
+        }
+      ]
+        }
+    }
+}
+
+
+//查询chapterIds为90198609023994的数据
+Post exercisestructindex/_search
+{
+     "query":{
+                "terms":{
+                    "charpterIds": [
+90198609024011
+
+      ]
+                }
+        
+
+    
+  }
+}
+
+
+
+
+Post exercisestructindex/_search
+{
+  
+    "query":{
+        "bool":{
+            "must":[
+                {
+                    "match":{
+                        "exerciseId": 3113875957608
+                    }
+                }
+            ]
+     
+        }
+    }
+}
+
+
+
+
+
 Post exercisestructindex/_search
 {
     "query":{
@@ -266,3 +343,82 @@ Post exercisestructindex/_doc
 "exerciseTypeAliasId": 863288433875,
 "exerciseTypeId": 3
 }
+
+
+//删除
+Post exercisestructindex/_delete_by_query?pretty
+{
+  "query":{
+                "terms":{
+                    "exerciseId": [
+3032246947905,3032246947904,3032246947897
+
+      ]
+                }
+        
+
+    
+  }
+  
+}
+
+
+Post exercisestructindex/_search
+{
+  "query":{
+    "match":{"exerciseTypeAliasId":0}
+    
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+//重复
+Post exercisestructindex/_search
+
+{
+    "size":0,
+    "aggs":{
+        "field":{
+            "terms":{
+                "field":"exerciseId",
+                "size":3000,
+                "min_doc_count":2
+            }
+        }
+    },
+
+    "query":{
+        "bool":{
+            "must":[
+               
+               { "range":{
+
+"parentID":{"gt": 0}
+
+}}
+            ]
+     
+        }
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+

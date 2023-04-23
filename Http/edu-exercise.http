@@ -78,4 +78,197 @@ Get http://192.168.12.52:31014/ExercisesPool/GetStatistics?ssotoken=B4480F44DA81
 
 
 
+###
+{{protocol}}://{{host}}/ExercisesPool/SaveFinalOperation?ssotoken={{ssotoken}}&schoolId=1374390147519&userId=1374390145432&gradeId=0&versionId=0&volumeId=1&subjectId=10&chapterId=124
 
+###
+{{protocol}}://{{host}}/ExercisesPool/GetFinalOperation?ssotoken={{ssotoken}}&schoolId=1374390147518&userId=1374390145432
+
+###
+{{protocol}}://{{host}}/ExercisePoolPage/RangeList?ssotoken=788E0ACD3976E3227BA152E3A8363EBDD1C449EDC5F5DA23915D9555D8330D2566E60D512B815AC601A3E2FAE9761AF4694236594F109657C78CB908BBDA2924274D6AF26E7FB1430A4FA8A3BF1144E9E82CB383361B2C0FBA6D23D08E541D752DE9B199EA28507052789C65EC8813D0&exercisePoolId=90194313252185&rangeCount=10
+
+
+
+###
+Post https://hz.hexfuture.cn/routeapi/ExercisesPool/GetSchoolExercisePool?ssotoken=788E0ACD3976E3227BA152E3A8363EBDD1C449EDC5F5DA23E9BB0241FEE7FC1911C8BDB81A0FEE434764BB68D83480A8EC7E34BC0F6707110D40D59774DF89691769E2215B287EB6F941CA2E8CBF6C42BAC7971B90A0553FFC5466E91ADB7EDB06961233EDC6ECD6
+Content-Type: application/json
+
+{"tenantId":1361504633883,"chapterId":1374390145430,"content":"","exerciseAliasTypeId":0,"sort":0,"difficult":-1,"pageIndex":1,"pageSize":10}
+
+###
+{{protocol}}://{{host}}/ExercisesPool/TenantDeleteExercise?ssotoken=788E0ACD3976E3227BA152E3A8363EBDD1C449EDC5F5DA23E9BB0241FEE7FC1911C8BDB81A0FEE434764BB68D83480A8EC7E34BC0F6707110D40D59774DF89691769E2215B287EB6F941CA2E8CBF6C42BAC7971B90A0553FFC5466E91ADB7EDB06961233EDC6ECD6&tenantId=1361504633883&chapterId=1374390145430&exerciseId=3032247599325
+
+
+
+###
+Post {{protocol}}://{{host}}/ExercisesPool/InputBoutiqueExercisePool?ssotoken=788E0ACD3976E3227BA152E3A8363EBDD1C449EDC5F5DA23E9BB0241FEE7FC1911C8BDB81A0FEE434764BB68D83480A8EC7E34BC0F6707110D40D59774DF89691769E2215B287EB6F941CA2E8CBF6C42BAC7971B90A0553FFC5466E91ADB7EDB06961233EDC6ECD6
+Content-Type: application/json
+
+{
+   "List":[
+      {
+         "tenantId":1361504633883,
+         "chapterId":1374390145430,
+         "exerciseId":3032247599325
+      },
+      {
+         "tenantId":1361504633883,
+         "chapterId":1374390145430,
+         "exerciseId":3032247599325
+      },
+      {
+         "tenantId":1361504633883,
+         "chapterId":1374390145430,
+         "exerciseId":3032247599325
+      },
+      {
+         "tenantId":1361504633883,
+         "chapterId":1374390145430,
+         "exerciseId":3032247599325
+      },
+      {
+         "tenantId":1361504633884,
+         "chapterId":1374390145434,
+         "exerciseId":3032247599324
+      },
+      {
+         "tenantId":1361504633884,
+         "chapterId":1374390145434,
+         "exerciseId":3032247599324
+      },
+      {
+         "tenantId":1361504633884,
+         "chapterId":1374390145434,
+         "exerciseId":3032247599324
+      },
+      {
+         "tenantId":1361504633884,
+         "chapterId":1374390145434,
+         "exerciseId":3032247599324
+      },
+      {
+         "tenantId":1361504633883,
+         "chapterId":1374390145430,
+         "exerciseId":3032247599325
+      },
+      {
+         "tenantId":1361504633883,
+         "chapterId":1374390145430,
+         "exerciseId":3032247599325
+      }
+   ]
+
+
+}
+
+###
+Post {{protocol}}://{{host}}/ExercisesPool/BatchAddSelectExerciseAsync?ssotoken=788E0ACD3976E3227BA152E3A8363EBD7A260068C2777FEF093C0B5A8441ABFD37F6454D855BD20F6D771B8AFE73FE5767D87A6D642C965F6AB03816E498A9CA16E604D252EC95E9A35B8D43A6E88397ADC250567B856657A067AE71E1E0249010B84FE9718DCF492C4C0B42CC9DF8E6
+Content-Type: application/json
+
+
+[
+    {
+        "userId": 1361504633906,
+        "subjectId": 2,
+        "tenantId": 1374390144537,
+        "grade": "2",
+        "pageId": 3032247456792,
+        "pageNumber": 8,
+        "exerciseSequence": 2,
+        "categoryID": 3032247456809,
+        "categoryName": "二、选择题",
+        "exercisePoolId": 3032247456802,
+        "exercisePoolName": "【北京版】初中语文教辅.pdf",
+        "exerciseId": 3032247456817,
+        "exerciseNumber": "6",
+        "parentExerciseId": 0
+    },
+    {
+        "userId": 1361504633906,
+        "subjectId": 2,
+        "tenantId": 1374390144537,
+        "grade": "2",
+        "pageId": 3032247456792,
+        "pageNumber": 8,
+        "exerciseSequence": 2,
+        "categoryID": 3032247456809,
+        "categoryName": "二、选择题",
+        "exercisePoolId": 3032247456802,
+        "exercisePoolName": "【北京版】初中语文教辅.pdf",
+        "exerciseId": 3032247456818,
+        "exerciseNumber": "7",
+        "parentExerciseId": 0
+    }
+]
+
+
+
+
+
+###
+Post {{protocol}}://{{host}}/ExercisesPool/BatchDelSelectExerciseAsync?ssotoken=788E0ACD3976E3227BA152E3A8363EBD7A260068C2777FEF093C0B5A8441ABFD37F6454D855BD20F6D771B8AFE73FE5767D87A6D642C965F6AB03816E498A9CA16E604D252EC95E9A35B8D43A6E88397ADC250567B856657A067AE71E1E0249010B84FE9718DCF492C4C0B42CC9DF8E6
+Content-Type: application/json
+
+
+[
+    {
+        "userId": 1361504633906,
+        "subjectId": 2,
+        "tenantId": 1374390144537,
+        "exerciseId": 3032246948898
+    },
+    {
+        "userId": 1361504633906,
+        "subjectId": 2,
+        "tenantId": 1374390144537,
+        "exerciseId": 3032246948900
+    },
+    {
+        "userId": 1361504633906,
+        "subjectId": 2,
+        "tenantId": 1374390144537,
+        "exerciseId": 3032246948901
+    },
+    {
+        "userId": 1361504633906,
+        "subjectId": 2,
+        "tenantId": 1374390144537,
+        "exerciseId": 3032246948902
+    },
+    {
+        "userId": 1361504633906,
+        "subjectId": 2,
+        "tenantId": 1374390144537,
+        "exerciseId": 3032246948904
+    },
+    {
+        "userId": 1361504633906,
+        "subjectId": 2,
+        "tenantId": 1374390144537,
+        "exerciseId": 3032246948905
+    },
+    {
+        "userId": 1361504633906,
+        "subjectId": 2,
+        "tenantId": 1374390144537,
+        "exerciseId": 3032246948907
+    },
+    {
+        "userId": 1361504633906,
+        "subjectId": 2,
+        "tenantId": 1374390144537,
+        "exerciseId": 3032246948908
+    },
+    {
+        "userId": 1361504633906,
+        "subjectId": 2,
+        "tenantId": 1374390144537,
+        "exerciseId": 3032246948910
+    },
+    {
+        "userId": 1361504633906,
+        "subjectId": 2,
+        "tenantId": 1374390144537,
+        "exerciseId": 3032246948911
+    }
+]

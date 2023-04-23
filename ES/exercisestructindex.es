@@ -421,4 +421,11 @@ Post exercisestructindex/_search
 
 
 
-
+Post exercisestructindex/_search
+{
+  "query":{
+    "match":{"exerciseId":3032247599325}
+    
+  }
+  
+}

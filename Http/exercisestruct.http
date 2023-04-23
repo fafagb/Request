@@ -1095,6 +1095,14 @@ Content-Type: application/json
 {"chapterId":90198609024011,"exerciseAliasTypeId":0,"content":"","difficult":-1,"used":0,"pageIndex":1,"pageSize":10,"sort":0}
 
 
+###
+ {{protocol}}://{{host}}/ExercisePoolPage/RangeList?exercisePoolId=3032246947193&rangeCount=100&ssotoken={{ssotoken}}
+
+
+
+
+
+
 
 
 

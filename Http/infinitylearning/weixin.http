@@ -1,0 +1,29 @@
+###
+Post http://localhost:7000/wxpay/login
+Content-Type: application/json
+
+{
+    "Code": "0f1D0R0w3JtLu03xiu0w3ujxAU2D0R04"
+}
+
+
+###
+Post https://ai.myi.cn/wxpay/login
+Content-Type: application/json
+
+{
+    "Code": "0d1QH1100YP9RP17cN000NZrFn2QH11F"
+}
+
+
+###
+Post https://ai.myi.cn/wxpay/HandleWxPayNotify
+Content-Type: application/json
+
+
+
+###
+http://localhost:7000/wxpay/GenOrder?openid=oQEQS5g1ftCKrExLwllhMfkcOwC0
+
+
+

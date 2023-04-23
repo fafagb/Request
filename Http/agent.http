@@ -27,3 +27,8 @@ Post https://www.hexfuture.cn/routeapi/ExercisesPool/GetSchoolExercisePool?ssoto
 Content-Type: application/json
 
 {"chapterId":90198609024011,"exerciseAliasTypeId":0,"content":"","difficult":-1,"used":0,"pageIndex":1,"pageSize":10,"sort":0}
+
+
+
+
+

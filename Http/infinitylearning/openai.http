@@ -1,0 +1,7 @@
+Post https://ai.myi.cn/openai/Question
+Content-Type: application/json
+
+{
+  "question": "你是谁",
+  "code": "Paris is the capital of France."
+}

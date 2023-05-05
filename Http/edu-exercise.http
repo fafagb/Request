@@ -90,10 +90,10 @@ Get http://192.168.12.52:31014/ExercisesPool/GetStatistics?ssotoken=B4480F44DA81
 
 
 ###
-Post https://hz.hexfuture.cn/routeapi/ExercisesPool/GetSchoolExercisePool?ssotoken=788E0ACD3976E3227BA152E3A8363EBDD1C449EDC5F5DA23E9BB0241FEE7FC1911C8BDB81A0FEE434764BB68D83480A8EC7E34BC0F6707110D40D59774DF89691769E2215B287EB6F941CA2E8CBF6C42BAC7971B90A0553FFC5466E91ADB7EDB06961233EDC6ECD6
+Post {{protocol}}://{{host}}/ExercisesPool/GetSchoolExercisePool?ssotoken=F908601370F86E670550D935933F6E5FFF5434C25584D8956ADAFC8AF4F6EDEDE3039BEC10BF941E8487D28B594694B214EC93C5D7E51EB5F2ACC3F752880C1D7BF0648597F1775C92362F3725B62F23F604F535477C6108D08AE0406D1D3C508D7173CE157855B2492142536BCCF73B
 Content-Type: application/json
 
-{"tenantId":1361504633883,"chapterId":1374390145430,"content":"","exerciseAliasTypeId":0,"sort":0,"difficult":-1,"pageIndex":1,"pageSize":10}
+{"tenantId":1374390144537,"chapterId":1374390105331,"content":"","exerciseAliasTypeId":0,"sort":0,"difficult":-1,"pageIndex":1,"pageSize":10}
 
 ###
 {{protocol}}://{{host}}/ExercisesPool/TenantDeleteExercise?ssotoken=788E0ACD3976E3227BA152E3A8363EBDD1C449EDC5F5DA23E9BB0241FEE7FC1911C8BDB81A0FEE434764BB68D83480A8EC7E34BC0F6707110D40D59774DF89691769E2215B287EB6F941CA2E8CBF6C42BAC7971B90A0553FFC5466E91ADB7EDB06961233EDC6ECD6&tenantId=1361504633883&chapterId=1374390145430&exerciseId=3032247599325
@@ -101,102 +101,56 @@ Content-Type: application/json
 
 
 ###
-Post {{protocol}}://{{host}}/ExercisesPool/InputBoutiqueExercisePool?ssotoken=788E0ACD3976E3227BA152E3A8363EBDD1C449EDC5F5DA23E9BB0241FEE7FC1911C8BDB81A0FEE434764BB68D83480A8EC7E34BC0F6707110D40D59774DF89691769E2215B287EB6F941CA2E8CBF6C42BAC7971B90A0553FFC5466E91ADB7EDB06961233EDC6ECD6
+Post {{protocol}}://{{host}}/ExercisesPool/InputBoutiqueExercisePool?ssotoken=F908601370F86E675F5CF4CA268C1EC89B88058019286E4DF1CFA3696FB1B94762C27E0F6BE159782B6A9B95BB17E1952328E0920A95F415E0AD60389D1A7C5E097AB89CDC3676031256E2D349209F6943C9AC5B60A757C2F28E576902FD7773B45342D1C6C805BC84B06C6D4F034646
 Content-Type: application/json
 
-{
-   "List":[
-      {
-         "tenantId":1361504633883,
-         "chapterId":1374390145430,
-         "exerciseId":3032247599325
-      },
-      {
-         "tenantId":1361504633883,
-         "chapterId":1374390145430,
-         "exerciseId":3032247599325
-      },
-      {
-         "tenantId":1361504633883,
-         "chapterId":1374390145430,
-         "exerciseId":3032247599325
-      },
-      {
-         "tenantId":1361504633883,
-         "chapterId":1374390145430,
-         "exerciseId":3032247599325
-      },
-      {
-         "tenantId":1361504633884,
-         "chapterId":1374390145434,
-         "exerciseId":3032247599324
-      },
-      {
-         "tenantId":1361504633884,
-         "chapterId":1374390145434,
-         "exerciseId":3032247599324
-      },
-      {
-         "tenantId":1361504633884,
-         "chapterId":1374390145434,
-         "exerciseId":3032247599324
-      },
-      {
-         "tenantId":1361504633884,
-         "chapterId":1374390145434,
-         "exerciseId":3032247599324
-      },
-      {
-         "tenantId":1361504633883,
-         "chapterId":1374390145430,
-         "exerciseId":3032247599325
-      },
-      {
-         "tenantId":1361504633883,
-         "chapterId":1374390145430,
-         "exerciseId":3032247599325
-      }
-   ]
+{"userId":90198608183309,"list":[{"tenantId":90198609081349,"exerciseId":2113851813232,"chapterIDs":["90198609040386","90198609040384"],"eBookId":94489280536672}]}
 
 
-}
+
+
 
 ###
-Post {{protocol}}://{{host}}/ExercisesPool/BatchAddSelectExerciseAsync?ssotoken=788E0ACD3976E3227BA152E3A8363EBD7A260068C2777FEF093C0B5A8441ABFD37F6454D855BD20F6D771B8AFE73FE5767D87A6D642C965F6AB03816E498A9CA16E604D252EC95E9A35B8D43A6E88397ADC250567B856657A067AE71E1E0249010B84FE9718DCF492C4C0B42CC9DF8E6
+ {{protocol}}://{{host}}/ExercisesPool/SearchSelectExerciseAsync?ssotoken=788E0ACD3976E3227BA152E3A8363EBD4CAF9DBA8F7D6FFBCFB83923798533193678D566B6AD9BF5448874D773DC568B563E90E5E2DE71415C59DF51F377506FD6D7814D16BD4D701EB18F4DEDF8B8C3C284D7C77C9114F12C87D10EE070D20E9E7D7C48B5AD8700ECC0A565B8E3A761&subjectId=1
+
+
+
+###
+Post {{protocol}}://{{host}}/ExercisesPool/BatchAddSelectExerciseAsync?ssotoken=F908601370F86E670550D935933F6E5FFAB4942DE1E90690D8624C0EF5685D744C45210604D2FEDD90A9FE15C5EE3F392143880929448633474AE07FC5F06C40BB89C1FCC4C8D26B6C6A69746B0A7D9C5B66FD538AD993124D9210F5473454399648AE1EC1B44A047C44D60182F2CFF8
 Content-Type: application/json
 
 
 [
     {
         "userId": 1361504633906,
-        "subjectId": 2,
+        "subjectId": 8,
         "tenantId": 1374390144537,
         "grade": "2",
-        "pageId": 3032247456792,
-        "pageNumber": 8,
+        "pageId": "3032247623773",
+        "pageNumber": 1,
         "exerciseSequence": 2,
-        "categoryID": 3032247456809,
-        "categoryName": "二、选择题",
-        "exercisePoolId": 3032247456802,
-        "exercisePoolName": "【北京版】初中语文教辅.pdf",
-        "exerciseId": 3032247456817,
-        "exerciseNumber": "6",
+        "categoryID": 3032247626136,
+        "categoryName": "第一题类",
+        "exercisePoolId": 3032247623940,
+        "exercisePoolName": "精品题库教辅超长名称高三语文人教版二零二二必修第一册于文文如",
+        "exerciseId": 3032247626137,
+        "exerciseNumber": "1",
         "parentExerciseId": 0
     },
     {
         "userId": 1361504633906,
-        "subjectId": 2,
+        "subjectId": 1,
         "tenantId": 1374390144537,
         "grade": "2",
-        "pageId": 3032247456792,
-        "pageNumber": 8,
+        "pageId": "3032247623773",
+        "pageNumber": 1,
         "exerciseSequence": 2,
-        "categoryID": 3032247456809,
-        "categoryName": "二、选择题",
-        "exercisePoolId": 3032247456802,
-        "exercisePoolName": "【北京版】初中语文教辅.pdf",
-        "exerciseId": 3032247456818,
-        "exerciseNumber": "7",
+        "categoryID": 3032247626136,
+        "categoryName": "第一题类",
+        "exercisePoolId": 3032247623940,
+        "exercisePoolName": "精品题库教辅超长名称高三语文人教版二零二二必修第一册于文文如",
+        "exerciseId": 3032247626139,
+        "exerciseNumber": "2",
         "parentExerciseId": 0
     }
 ]
@@ -272,3 +226,34 @@ Content-Type: application/json
         "exerciseId": 3032246948911
     }
 ]
+
+
+
+
+###
+Post {{protocol}}://{{host}}/ExercisesPool/InputBoutiqueExercisePool?ssotoken=788E0ACD3976E3227BA152E3A8363EBDD204394809AEC514B93A429FFB89476535FBE8D4EB99E5404F08B0FC334AAF3EDABD64CC0EEF607BE6CFC42C550CCF7DC26C02E34648D6B7CBE2CA15C8FDB2396F71E7A293AF791402B3789EECE5CCE28CFD975E4B121BB5880575C6A0EE0418
+Content-Type: application/json
+
+{"userId":1361504633892,"list":[{"tenantId":1374390144537,"exerciseId":3032247624715,"chapterIDs":["1374390145444","1374390145445"]},{"tenantId":1374390144537,"exerciseId":3032247624716,"chapterIDs":["1374390145444","1374390145445"]}]}
+
+
+###
+Post {{protocol}}://{{host}}/ExercisesPool/PublishEvent?ssotoken=F908601370F86E670550D935933F6E5F9BB5EBB8847822D38507F8D82368D8F160E79739CE9C8768775571526BFE892043B2D720887A9E7A55A9B8982B9F1C92386F1E233F743573DEE7AF2DBD5B1B560C6CC479A1AEB09D630F0C4822A5C980626A114F0D4B0634
+Content-Type: application/json
+
+{
+    "ExercisePoolID": 3032247623940
+}
+
+
+###
+ {{protocol}}://{{host}}/ExercisesPool/EmptySelectExerciseAsync?ssotoken=788E0ACD3976E3227BA152E3A8363EBD4CAF9DBA8F7D6FFBCFB83923798533193678D566B6AD9BF5448874D773DC568B563E90E5E2DE71415C59DF51F377506FD6D7814D16BD4D701EB18F4DEDF8B8C3C284D7C77C9114F12C87D10EE070D20E9E7D7C48B5AD8700ECC0A565B8E3A761&userId=1361504633906&subjectId=1&tenantId=1374390144537
+
+
+
+
+
+
+
+###
+ {{protocol}}://{{host}}/ExercisePoolPage/Exercise?pageId=3032247623860&ssotoken=F908601370F86E670550D935933F6E5F2AF0B1D3028F3E959E01CAD70D929429A8A9B299D59C59C640BB77BC3404C4E69DB024A767E84F2924D401077B753D5911B8DC594907770E041F58670BF13E770A25F27E2F2B13D28CB069A25C18F419E93CAD8C39D5ADCAE6D9A430D285D8AE

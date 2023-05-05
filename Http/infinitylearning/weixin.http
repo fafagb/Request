@@ -23,7 +23,7 @@ Content-Type: application/json
 
 
 ###
-http://localhost:7000/wxpay/GenOrder?openid=oQEQS5g1ftCKrExLwllhMfkcOwC0
+https://ai.myi.cn/wxpay/GenOrder?openid=oQEQS5g1ftCKrExLwllhMfkcOwC0
 
 
 

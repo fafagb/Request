@@ -345,22 +345,6 @@ Post exercisestructindex/_doc
 }
 
 
-//删除
-Post exercisestructindex/_delete_by_query?pretty
-{
-  "query":{
-                "terms":{
-                    "exerciseId": [
-3032246947905,3032246947904,3032246947897
-
-      ]
-                }
-        
-
-    
-  }
-  
-}
 
 
 Post exercisestructindex/_search
@@ -429,3 +413,30 @@ Post exercisestructindex/_search
   }
   
 }
+
+
+
+post exercisestructindex/_update_by_query
+{
+   "script": {
+        "inline": "ctx._source.isValid = params.isValid",
+        "params": {
+            "isValid": true
+           
+        }
+    },
+ "query":{
+"match_phrase":{"exerciseTypeId":0}
+}
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -8,6 +8,17 @@ Content-Type: application/json
 
 
 ###
+Post http://localhost:7000/wxpay/GetUserPhone
+Content-Type: application/json
+
+{
+  "Code": "0d1jkr0w3KZLA03NdB3w3zaGXV0jkr0u",
+"EncryptedData": "HBbaFmk/gqpOuL6E/yuUYDrlGsSqKgup/Wi1Y86oreS/opBCLO0rzSejZhqeZ0McEA/vtFh4iGwHFAGzyVL0zYdVzfoqwQwlIYqrecY7SbvkIHbGzVoYc5AV6kV8kaHXOd0WRxYGgftaWU0ogvN0SZyOW4idaPu8gGunTl6II8hlM78gGToGENgwS1gJRqNJaq55idBQXIjKOTPtr2WZzA==",
+"Iv": "IEg1Ek6TQdWiDJrr/6fiKQ=="
+}
+
+
+###
 Post https://ai.myi.cn/wxpay/login
 Content-Type: application/json
 

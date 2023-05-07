@@ -1,0 +1,9 @@
+Post http://localhost:7000/user/saveuser
+Content-Type: application/json
+
+{
+
+    "OpenId":"124",
+    "name":"124",
+    "phone":"124"
+}

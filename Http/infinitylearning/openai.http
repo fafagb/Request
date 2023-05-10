@@ -5,3 +5,16 @@ Content-Type: application/json
   "question": "你是谁",
   "code": "Paris is the capital of France."
 }
+
+
+
+
+###
+Post http://localhost:7000/openai/Question
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJvUUVRUzVnMWZ0Q0tyRXhMd2xsaE1ma2NPd0MwIiwibmJmIjoxNjgzNDU1MjM0LCJleHAiOjE2ODM0NTg4MzQsImlhdCI6MTY4MzQ1NTIzNCwiaXNzIjoiaW5maW5pdGVsZWFybmluZyIsImF1ZCI6ImdwdCJ9.Nr5oU6T-NdxIwXUNtg_rB2W06hASDJP7l4kf8l7FiXk
+Content-Type: application/json
+
+{
+     "question": "oQEQS5pOpKg9oWIhmMcuX6VBMLHY",
+  "code": "给一个详细的chatgpt功能介绍" 
+}

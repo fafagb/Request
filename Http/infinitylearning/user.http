@@ -1,9 +1,29 @@
-Post http://localhost:7000/user/saveuser
+Post https://ai.myi.cn/api/user/saveuser
 Content-Type: application/json
 
 {
 
-    "OpenId":"124",
-    "name":"124",
-    "phone":"124"
+    "name":"182****7564",
+   "openId":"oQEQS5pOpKg9oWIhmMcuX6VBMLHY",
+   "phone":"182****7564"
+    
 }
+
+
+###
+Post http://localhost:7000/user/saveuser
+Content-Type: application/json
+
+{
+   "name":"182****7564",
+   "openId":"oQEQS5pOpKg9oWIhmMcuX6VBMLHY",
+   "phone":"182****7564"
+}
+
+
+###
+Post http://localhost:7000/user/getuserinfo
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJvUUVRUzVnMWZ0Q0tyRXhMd2xsaE1ma2NPd0MwIiwibmJmIjoxNjgzNjg4NDIzLCJleHAiOjE2ODM3NzQ4MjMsImlhdCI6MTY4MzY4ODQyMywiaXNzIjoiaW5maW5pdGVsZWFybmluZyIsImF1ZCI6ImdwdCJ9.QTuZmhhZfLN1nnZnAlm5yLFuhH1DKkm3ntT75gYEEYg
+
+
+

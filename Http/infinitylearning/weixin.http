@@ -3,7 +3,7 @@ Post http://localhost:7000/wxpay/login
 Content-Type: application/json
 
 {
-    "Code": "0f1D0R0w3JtLu03xiu0w3ujxAU2D0R04"
+    "Code": "0e1wSCFa1eb2hF0ysGJa1GvcCq1wSCFt"
 }
 
 

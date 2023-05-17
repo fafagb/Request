@@ -1,4 +1,5 @@
-Post https://ai.myi.cn/openai/Question
+Post https://ai.myi.cn/api/openai/Question
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJvUUVRUzVwT3BLZzlvV0lobU1jdVg2VkJNTEhZIiwibmJmIjoxNjgzNzg0NDU2LCJleHAiOjE2ODM4NzA4NTYsImlhdCI6MTY4Mzc4NDQ1NiwiaXNzIjoiaW5maW5pdGVsZWFybmluZyIsImF1ZCI6ImdwdCJ9.tCpnVv3gihKo3PB5f36_m1TwJx6mUYbsUOavMoilmT8
 Content-Type: application/json
 
 {
@@ -11,10 +12,10 @@ Content-Type: application/json
 
 ###
 Post http://localhost:7000/openai/Question
-Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJvUUVRUzVnMWZ0Q0tyRXhMd2xsaE1ma2NPd0MwIiwibmJmIjoxNjgzNDU1MjM0LCJleHAiOjE2ODM0NTg4MzQsImlhdCI6MTY4MzQ1NTIzNCwiaXNzIjoiaW5maW5pdGVsZWFybmluZyIsImF1ZCI6ImdwdCJ9.Nr5oU6T-NdxIwXUNtg_rB2W06hASDJP7l4kf8l7FiXk
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJvUUVRUzVnMWZ0Q0tyRXhMd2xsaE1ma2NPd0MwIiwibmJmIjoxNjg0MDY0NDY0LCJleHAiOjE2ODQxNTA4NjQsImlhdCI6MTY4NDA2NDQ2NCwiaXNzIjoiaW5maW5pdGVsZWFybmluZyIsImF1ZCI6ImdwdCJ9.Eo3vS8qybq8K2lumRYoybK6zn1DRUOWK97lx__tpI9g
 Content-Type: application/json
 
 {
-     "question": "oQEQS5pOpKg9oWIhmMcuX6VBMLHY",
-  "code": "给一个详细的chatgpt功能介绍" 
+     "question": "习近平是国家主席",
+  "code": "123" 
 }

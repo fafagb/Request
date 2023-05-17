@@ -421,12 +421,12 @@ post exercisestructindex/_update_by_query
    "script": {
         "inline": "ctx._source.isValid = params.isValid",
         "params": {
-            "isValid": true
+            "isValid": false
            
         }
     },
  "query":{
-"match_phrase":{"exerciseTypeId":0}
+"match_phrase":{"exerciseId":3032247687325}
 }
 }
 

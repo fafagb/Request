@@ -3,7 +3,7 @@ Post http://localhost:7000/wxpay/login
 Content-Type: application/json
 
 {
-    "Code": "0e1wSCFa1eb2hF0ysGJa1GvcCq1wSCFt"
+    "Code": "0f1IyH0w3qAID03jCX1w3UCSBA3IyH0j"
 }
 
 
@@ -19,11 +19,11 @@ Content-Type: application/json
 
 
 ###
-Post https://ai.myi.cn/wxpay/login
+Post https://ai.myi.cn/api/wxpay/login
 Content-Type: application/json
 
 {
-    "Code": "0d1QH1100YP9RP17cN000NZrFn2QH11F"
+    "Code": "0f1xrM0w3WfeB039SJ0w39mtol2xrM0x"
 }
 
 
@@ -34,7 +34,10 @@ Content-Type: application/json
 
 
 ###
-https://ai.myi.cn/wxpay/GenOrder?openid=oQEQS5g1ftCKrExLwllhMfkcOwC0
+https://ai.myi.cn/api/wxpay/GenOrder?openid=oQEQS5pOpKg9oWIhmMcuX6VBMLHY
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJvUUVRUzVwT3BLZzlvV0lobU1jdVg2VkJNTEhZIiwibmJmIjoxNjgzNzg0NDU2LCJleHAiOjE2ODM4NzA4NTYsImlhdCI6MTY4Mzc4NDQ1NiwiaXNzIjoiaW5maW5pdGVsZWFybmluZyIsImF1ZCI6ImdwdCJ9.tCpnVv3gihKo3PB5f36_m1TwJx6mUYbsUOavMoilmT8
 
 
+https://ai.myi.cn/api/wxpay/GenOrder?openid=oQEQS5pOpKg9oWIhmMcuX6VBMLHY
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJvUUVRUzVwT3BLZzlvV0lobU1jdVg2VkJNTEhZIiwibmJmIjoxNjgzNzg0NDU2LCJleHAiOjE2ODM4NzA4NTYsImlhdCI6MTY4Mzc4NDQ1NiwiaXNzIjoiaW5maW5pdGVsZWFybmluZyIsImF1ZCI6ImdwdCJ9.tCpnVv3gihKo3PB5f36_m1TwJx6mUYbsUOavMoilmT8
 

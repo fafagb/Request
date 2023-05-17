@@ -3,8 +3,7 @@ Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJvUUVRUz
 Content-Type: application/json
 
 {
-  "question": "你是谁",
-  "code": "Paris is the capital of France."
+  "question": "你是谁"
 }
 
 
@@ -16,6 +15,6 @@ Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJvUUVRUz
 Content-Type: application/json
 
 {
-     "question": "习近平是国家主席",
-  "code": "123" 
+     "question": "你好",
+
 }

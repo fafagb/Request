@@ -3,7 +3,7 @@ Content-Type: application/json
 
 {
 
-    "name":"182****7564",
+    "name":"182****7564",           
    "openId":"oQEQS5pOpKg9oWIhmMcuX6VBMLHY",
    "phone":"182****7564"
     
@@ -12,11 +12,12 @@ Content-Type: application/json
 
 ###
 Post http://localhost:7000/user/saveuser
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJvUUVRUzVnMWZ0Q0tyRXhMd2xsaE1ma2NPd0MwIiwibmJmIjoxNjg0MjM2MTU3LCJleHAiOjE2ODQzMjI1NTcsImlhdCI6MTY4NDIzNjE1NywiaXNzIjoiaW5maW5pdGVsZWFybmluZyIsImF1ZCI6ImdwdCJ9.-bN0M_xeqo4zzqQD28wlCFkxfPySDzGJTLY5cUZSq9s
 Content-Type: application/json
 
 {
    "name":"182****7564",
-   "openId":"oQEQS5pOpKg9oWIhmMcuX6VBMLHY",
+   
    "phone":"182****7564"
 }
 

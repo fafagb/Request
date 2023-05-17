@@ -15,6 +15,6 @@ Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJvUUVRUz
 Content-Type: application/json
 
 {
-     "question": "你好",
+     "question": "你好"
 
 }

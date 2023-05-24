@@ -3,7 +3,7 @@ Post http://localhost:7000/wxpay/login
 Content-Type: application/json
 
 {
-    "Code": "0f1IyH0w3qAID03jCX1w3UCSBA3IyH0j"
+    "Code": "0a17xPGa1DXJiF0DWGFa17kJQ607xPGN"
 }
 
 
@@ -43,5 +43,5 @@ Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJvUUVRUz
 
 ###
 http://localhost:7000/wxpay/GenOrder?openid=oQEQS5pOpKg9oWIhmMcuX6VBMLHY
-Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJvUUVRUzVnMWZ0Q0tyRXhMd2xsaE1ma2NPd0MwIiwibmJmIjoxNjg0MjM2MTU3LCJleHAiOjE2ODQzMjI1NTcsImlhdCI6MTY4NDIzNjE1NywiaXNzIjoiaW5maW5pdGVsZWFybmluZyIsImF1ZCI6ImdwdCJ9.-bN0M_xeqo4zzqQD28wlCFkxfPySDzGJTLY5cUZSq9s
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJvUUVRUzVnMWZ0Q0tyRXhMd2xsaE1ma2NPd0MwIiwibmJmIjoxNjg0Mzk5NDM2LCJleHAiOjE2ODQ0ODU4MzYsImlhdCI6MTY4NDM5OTQzNiwiaXNzIjoiaW5maW5pdGVsZWFybmluZyIsImF1ZCI6ImdwdCJ9.dqlXhKwtgCWLg8eNL4McXUtJc375G68wJB62kNDcA3U
 

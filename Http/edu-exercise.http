@@ -261,3 +261,34 @@ Content-Type: application/json
  {{protocol}}://{{host}}/ExercisePoolPage/Exercise?pageId=3032247623860&ssotoken=F908601370F86E670550D935933F6E5F2AF0B1D3028F3E959E01CAD70D929429A8A9B299D59C59C640BB77BC3404C4E69DB024A767E84F2924D401077B753D5911B8DC594907770E041F58670BF13E770A25F27E2F2B13D28CB069A25C18F419E93CAD8C39D5ADCAE6D9A430D285D8AE
 
 
+
+
+###
+Post {{protocol}}://{{host}}/Exercise/CreateExerciseSimple?ssotoken=F908601370F86E670550D935933F6E5F9BB5EBB8847822D38507F8D82368D8F160E79739CE9C8768775571526BFE892043B2D720887A9E7A55A9B8982B9F1C92386F1E233F743573DEE7AF2DBD5B1B560C6CC479A1AEB09D630F0C4822A5C980626A114F0D4B0634
+Content-Type: application/json
+    
+    {
+    "exerciseId": 0,
+    "number": "",
+    "exerciseTypeID": 3,
+    "exerciseTypeName": "主观题",
+    "eName": "Subjective",
+    "exerciseTypeAliasID": 863288433875,
+    "exerciseTypeAliasName": "简答题",
+    "categoryID": 3032247700172,
+    "categoryName": "",
+    "parentID": 0,
+    "questionItemID": 0,
+    "isIncludeQuestions": false,
+    "questions": [],
+    "pageID": 3032247698621,
+    "img": "",
+    "pageNum": 0,
+    "sequence": 2,
+    "answerOptions": "",
+    "computedAnswer": "",
+    "optionCount": 0,
+    "exercisePoolID": 0,
+    "exercisePoolName": "",
+    "answers": []
+}

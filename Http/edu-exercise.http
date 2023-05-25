@@ -292,3 +292,11 @@ Content-Type: application/json
     "exercisePoolName": "",
     "answers": []
 }
+
+
+
+
+
+
+###
+{{protocol}}://{{host}}/ExercisePoolPage/ExerciseSimpleList?pageId=3032247398554&ssotoken={{ssotoken}}

@@ -11,10 +11,24 @@ Content-Type: application/json
 
 ###
 Post http://localhost:7000/openai/Question
-Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJvUUVRUzVnMWZ0Q0tyRXhMd2xsaE1ma2NPd0MwIiwibmJmIjoxNjg0MDY0NDY0LCJleHAiOjE2ODQxNTA4NjQsImlhdCI6MTY4NDA2NDQ2NCwiaXNzIjoiaW5maW5pdGVsZWFybmluZyIsImF1ZCI6ImdwdCJ9.Eo3vS8qybq8K2lumRYoybK6zn1DRUOWK97lx__tpI9g
 Content-Type: application/json
 
 {
-     "question": "你好"
+     "question": "给我一个详细的宇宙gpt的功能介绍"
 
 }
+
+
+
+###
+Post http://localhost:7000/openai/ContainSenWords
+Content-Type: application/json
+
+
+{
+     "Question": "oo"
+
+}
+
+
+

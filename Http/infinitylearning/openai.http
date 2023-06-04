@@ -14,7 +14,7 @@ Post http://localhost:7000/openai/Question
 Content-Type: application/json
 
 {
-     "question": "给我一个详细的宇宙gpt的功能介绍"
+     "question": "在新的人工智能时代，什么样的职业最不容易被代替？"
 
 }
 

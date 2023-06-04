@@ -1100,6 +1100,14 @@ Content-Type: application/json
 
 
 
+###
+ {{protocol}}://{{host}}/ExercisePoolPage/RangeList?exercisePoolId=3032246947193&rangeCount=100&ssotoken={{ssotoken}}
+
+
+###
+{{protocol}}://{{host}}/ExercisesPool/UploadFileCallBack?ssotoken={{ssotoken}}&fileId=85903644579183&uploadId=3032247716872&state=1&reason=压缩包中不包含可上传的图片文件
+
+
 
 
 

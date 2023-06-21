@@ -299,9 +299,7 @@ Content-Type: application/json
 
 
 ###
-{{protocol}}://{{host}}/ExercisePoolPage/ExerciseSimpleList?pageId=3032247398554&ssotoken={{ssotoken}}
+Post {{protocol}}://{{host}}/SystemResource/GetMateResults?pageId=3032247398554&ssotoken={{ssotoken}}
+Content-Type: application/json
 
-
-
-
-
+{"studyPhaseId":"2","gradeId":"9","subjectId":"3","versionId":"15","volumeNumberId":"1","coursetemplateId":"4303576404701"} 

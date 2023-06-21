@@ -44,4 +44,15 @@ Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJvUUVRUz
 ###
 http://localhost:7000/wxpay/GenOrder?openid=oQEQS5pOpKg9oWIhmMcuX6VBMLHY
 Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJvUUVRUzVnMWZ0Q0tyRXhMd2xsaE1ma2NPd0MwIiwibmJmIjoxNjg0Mzk5NDM2LCJleHAiOjE2ODQ0ODU4MzYsImlhdCI6MTY4NDM5OTQzNiwiaXNzIjoiaW5maW5pdGVsZWFybmluZyIsImF1ZCI6ImdwdCJ9.dqlXhKwtgCWLg8eNL4McXUtJc375G68wJB62kNDcA3U
+###
+https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx847dc538c65d15a0&secret=0cb0c4ce39847328e1b6014fc3437ecb
 
+###
+Post  https://api.weixin.qq.com/wxa/getwxacodeunlimit?access_token=69_CaoMVnuCu_vCNJjIBUNV1UxX_RViD1_ocQMsMjN3MABmKkazK2nUsS6-V-6IMpct_NAyXHgGv0wPQf9R-ZItYI0wdmWv96Uw4iRbuP_kbFQCQWI_ooqy-ZxavcYHRXhAEATDJ
+Content-Type: application/json
+
+
+  {
+  "scene": "uUId=uUId1,qRCodeType=1",
+  "page": "pages/index"
+}

@@ -16,8 +16,38 @@
 {{protocol}}://{{host}}/Exercise/GetExerciseAliasType?ssotoken={{ssotoken}}
 
 ###  选择题
-Post  {{protocol}}://{{host}}/Exercise/SaveStructExercise?ssotoken={{ssotoken}}
+Post  http://localhost:10005/Exercise/SaveStructExercise?ssotoken={{ssotoken}}
 Content-Type: application/json
+
+{
+  "exerciseId": "3015070063111",
+  "exerciseTypeAliasId": 863288426577,
+  "exerciseTypeAliasName": "单选题",
+  "exerciseTypeId": 1,
+  "exerciseTypeName": "单选题",
+  "exerciseSubject": "<p hexid=\"27a29b6fabe771a40f5fe1adc92fd553\">下列图形中，既是轴对称图形，又是中心对称图形的是（  ）。</p>",
+  "option": [
+    {
+      "optionType": 0,
+      "optionContent": "<p hexid=\"485d3e2d76a43381517377b1cefc3e05\"><img src=\"#\" data-file-id=\"85903644585894\" data-origin-width=\"58\" data-origin-height=\"58\" style=\"max-width:100%\"/></p>"
+    },
+    {
+      "optionType": 0,
+      "optionContent": "<p hexid=\"6568b27148f62fc525d9908d443ec087\"><img src=\"#\" data-file-id=\"85903644585895\" data-origin-width=\"70\" data-origin-height=\"60\" style=\"max-width:100%\"/></p>"
+    },
+    {
+      "optionType": 0,
+      "optionContent": "<p hexid=\"4b89be5318356558c3b375d8d997c5fd\"><img src=\"#\" data-file-id=\"85903644585896\" data-origin-width=\"71\" data-origin-height=\"62\" style=\"max-width:100%\"/></p>"
+    },
+    {
+      "optionType": 0,
+      "optionContent": "<p hexid=\"6625cc3e2f38330b0c6c97496f484396\"><img src=\"#\" data-file-id=\"85903644585897\" data-origin-width=\"58\" data-origin-height=\"58\" style=\"max-width:100%\"/></p>"
+    }
+  ],
+  "answer": "1000",
+  "codeSnippet": "ᯡࡓ䅼Ҁ⬥ᠸ怷ࠥ愠㰠㠠䀫ᰠ㰤堢〷䀮䐠䰣堤ᣰᎪ\\x8Cì൧໚ɐᠡ〠ゐր玨ᩡ᦭ݲ爂ƹ吡礣℅ǰ䪠羊䁦絠婙‸䀀ሉ偝೰׾ᠳ緈ę灜㠢㳎㢐ᢟ➀瀨ⷼ瀤‐ᠠ䠈ҧ縡8ᠠ穌㫖Ἠ䙥™ࠠ㧥⑊㠺⤽ම⋂呯玫礈⪜⢞ȼΡڲ᜶儀ဠ㘬ぐ㱠ừҬ➈Ǹ㑐恸پ义Ʃà׆጖䢩煂ഠ₠ຼᑒ᪮ဢ氡晘〠ᎢṏҤ䋣ˁ䋢砠⽉潿㨈珐撊䵠‰ö㡄ᖀ∰ᰨडļ灵䄫榤䑘Ԍ↠ 瀠ቿ㌫碌≭䏃ᤂ㌮䄰熌Ṿ⑩碔ണ૤熘䅄≨呥ᬼ∲嘠ʠ݀Ϋ欃⓪㄃ࢭᰦッ⣩㌤ⅱ塢Ⴜ♪ዬႯ䢻✍ᇸ䏺晳=晢ℐ碢嫈੕⵮偢毮掂⽳°G䑿௝ѝ⃷䋁簱Ѡʰرᑷإ拴ୋણ検ባ䎀ᐨ㢦䅫ᡲ扴 䎵刨ࢼ俉ᩍ᭺䔋㪝ó㔻秳⳾㑃挜ڠȷⳢ猖濔ᱮ㎥斑崎䟓毵㷾俗栐ʡ≈Ḭ䏁墜᢮⋱㷕ᶭ搑䉲僪㋑Ļé⾉痨䖴劈⅟͠犙厔摉૥磄嵍䰅䕾᎚䷭涏∍ᄭ磁ᄜ必厡嚲ި篝劔⻕Ε㿁圕㺠ㄠ儰㚩⇘偨倲刁⩟Ѩ⩘䆄૕⊠┪❭⦽ѭਾ㚉ⴧ⌈㵟Ⅳ͐惌檬掸୕ǀᨠض㛍䌥氧ᤅ᳴ᴄ峷ᜀ㱯؀櫣䰁紟ံɳ䈲䉐临ဨ䄢⋈崴拋亰जÄᓒ亦⡔ᅀẋ庳扊ࡡ⣉䑢廜䐣಼⼕ઁ䐢 㹒买⨪妣だ㍶缐⣶倢Ɉ婟䫳汖屓煾⇶㪐ᗰㄎ彳繾䟷窡則⇑ጫㄑ屠⃵ᵀ炙ᝁࡰѠ₌๣偢ై灩׫֔⃔ㅅ䖪䔅寨૵䞩\\x8AԨB⅝䗖ㅓ婩滦☖祐㩉ྐྵ▮㕒㦢䵖㤉㵀敎答搴ᨪ栂 擤␐春↽痼栂㱳࢙࿷摞ॿ୞惍称磊ᘅ翺䂺⽒媞䣄֡孪څ泗ᚚ䑈囑⃤ ᨰɑ䁽₩偬ȹ䬘䇢橄䡲砺˵Цࢳ侉ө䑻僣རᒰ㾑孻⡅䊧ᚐ䤰䀠ఄ  "
+}
+
 
 {
   "difficult": 0,

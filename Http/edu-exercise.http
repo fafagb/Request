@@ -302,4 +302,257 @@ Content-Type: application/json
 Post {{protocol}}://{{host}}/SystemResource/GetMateResults?pageId=3032247398554&ssotoken={{ssotoken}}
 Content-Type: application/json
 
-{"studyPhaseId":"2","gradeId":"9","subjectId":"3","versionId":"15","volumeNumberId":"1","coursetemplateId":"4303576404701"} 
+{"studyPhaseId":2,"gradeId":7,"subjectId":10,"versionId":1374390220483,"volumeNumberId":2,"coursetemplateId":"4294970150049"}
+
+
+
+
+###
+ {{protocol}}://{{host}}/SystemResource/GetMatchResultsByCTId?ssotoken=788E0ACD3976E322AA313229693CFCD308784975139E056C06A3BE2846E20A5E8A3F0232FB08B130CB65962F4F4AB96F52A81D95DCC1FBF3DA57DA3CBF84B560CBD0F92ACA54721C2A67DBAC5ECF46A84DE21942C0415DA1D5AC4210BA157D4203B0377E183BB56A&coursetemplateId=4294969411878
+
+
+
+
+###
+Post {{protocol}}://{{host}}/SystemResource/SaveMatchResults?pageId=3032247398554&ssotoken={{ssotoken}}
+Content-Type: application/json
+
+[{"coursetemplateId":863323295479,"eBookName":"","eBookId":0,"chapterId":1361504810878,"chapterName":"一 中国的热极——认识负数","courseWares":[{"coursewareid":2585910889246,"courseWareName":"认识负数-课件一","resourcetype":1,"courseWareFileId":2585910887817,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture4.hexfuture.net/a40e54b2cd1c823a1a9e1861dac078975d40efa1/认识负数.pptx?Expires=1718870127&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=KKzhC6HbZDiRdh8nXdmGR3kq8bU%3D","size":2124640},{"coursewareid":2585575852741,"courseWareName":"认识负数-课件二","resourcetype":6,"courseWareFileId":2585596937870,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture4.hexfuture.net/7e84a4c80a17455950b7901306f79141/认识负数-课件二.pptx?Expires=1693032325&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=doPadT6oDLApOyCAcAPDTAA56wk%3D","size":2744161},{"coursewareid":2585575852179,"courseWareName":"认识负数-课件三","resourcetype":6,"courseWareFileId":2585575856830,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture3.hexfuture.net/fb6c0849fc25026550dadf27a2de0357/认识负数-课件三.pptx?Expires=1706665300&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=SwCzB1tb3ZsmCZrSVP9uW2RTRbA%3D","size":1268528},{"coursewareid":2576983222458,"courseWareName":"认识负数-课件四","resourcetype":6,"courseWareFileId":2585596937786,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture1.hexfuture.net/40237f232e7d56c2895ea8a568a719f1/认识负数-课件.pptx?Expires=1690611842&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=AbUVEitsLMlx8fqLfYQ04ILtxKE%3D","size":1935909},{"coursewareid":2576983222451,"courseWareName":"认识负数-教案一","resourcetype":2,"courseWareFileId":2576983222449,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture1.hexfuture.net/db596cc325f74b561e910910b3eca751/1.1认识负数-教案.docx?Expires=1703819580&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=M5mhzqhCW8TJKbgGRlRsSlJkCB0%3D","size":20673},{"coursewareid":2585575852047,"courseWareName":"认识负数-教案二","resourcetype":2,"courseWareFileId":2585575851437,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture3.hexfuture.net/0c52330ac2cb3bea57008f2179a176ef/认识负数-教案二.doc?Expires=1706855551&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=omInlxDPxFUpEMXh35XnZ%2FlE2pw%3D","size":210944},{"coursewareid":2585575851374,"courseWareName":"认识负数-教案三","resourcetype":2,"courseWareFileId":2585575851360,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture2.hexfuture.net/f2d3056ae24ddd9704ff1b283669dff4/认识负数-教案三.docx?Expires=1706855565&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=jWwHXSieh9RWYOTR0ywkcdc%2Ba04%3D","size":19376},{"coursewareid":2585575851333,"courseWareName":"认识负数-学案一","resourcetype":2,"courseWareFileId":2585575851300,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture5.hexfuture.net/dbcb463919f343d3aa726d4515d5e60c/认识负数-学案二.docx?Expires=1704616332&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=INL%2FUJhOEBQlhsH4bZM5DjHKQeI%3D","size":46909},{"coursewareid":2585575850919,"courseWareName":"认识负数-学案二","resourcetype":2,"courseWareFileId":2585575850891,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture4.hexfuture.net/02c76522fa7a20d8ecb50bb861fa8d3d/认识负数-学案三.docx?Expires=1707021012&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=ry%2BCFK9qnvw8jPLJNT0Gz55t%2F7M%3D","size":43972},{"coursewareid":2585873005212,"courseWareName":"认识正、负数-教案","resourcetype":2,"courseWareFileId":2585873005203,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture5.hexfuture.net/a5892ba189e5646b102b7436c6d7d831ac2e4cff/认识正、负数-教案.docx?Expires=1704786280&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=xSAhZCtoReDzrTxh3awebF7V0yM%3D","size":48067},{"coursewareid":2585575853387,"courseWareName":"认识负数-视频一","resourcetype":5,"courseWareFileId":2585575853331,"filetype":4,"coursewaretype":1,"accessUrl":"https://bucket-hexfuture-videoout4.hexfuture.net/1420d93b42d675fc4d087babae4e59dd/认识负数-视频一.mp4?Expires=1707021027&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=CiAF6rtS7rzFQnIu0A2eQoBRpTQ%3D","size":12023159},{"coursewareid":2585575853122,"courseWareName":"认识负数-视频二","resourcetype":5,"courseWareFileId":2585575853072,"filetype":4,"coursewaretype":1,"accessUrl":"https://bucket-hexfuture-videoout4.hexfuture.net/e40d364d01aa28cc6981a15382cbd063/认识负数-视频二.mp4?Expires=1718870130&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=EkhArzrLgSfplKSowr7pifZtEOs%3D","size":9040924},{"coursewareid":2576983222492,"courseWareName":"分数的意义-教案一","resourcetype":2,"courseWareFileId":2585596938047,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture1.hexfuture.net/5925e33e929eaaeef7de95fa68310d03/分数的意义-教案.docx?Expires=1691337297&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=alPgqf1Q6nvGtfxtIpabvd0JL%2BE%3D","size":98800},{"coursewareid":2585575850484,"courseWareName":"分数的意义-教案二","resourcetype":2,"courseWareFileId":2585575850255,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture2.hexfuture.net/6c56ab5946c879c4ba2defeeac819555/分数的意义-教案二.docx?Expires=1704786476&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=UkJNNb1TlHJP3V9BmuyAPXsRHUA%3D","size":111181},{"coursewareid":2585575848501,"courseWareName":"分数的意义-教案三","resourcetype":2,"courseWareFileId":2585575848139,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture2.hexfuture.net/d65e0f4f103527b465398cc4002d26ed/分数的意义-教案三.docx?Expires=1704786509&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=TtrYOlMIpGo067xTGOkbUxqsKHo%3D","size":178440},{"coursewareid":2585575847988,"courseWareName":"分数的意义-教案四","resourcetype":2,"courseWareFileId":2585596938120,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture2.hexfuture.net/097e0ce9fb76fe0a562dcaaf7c07babc/分数的意义-教案四.doc?Expires=1693032621&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=5NyLijDgE5KIGRFDZwDSuOdv57I%3D","size":768512},{"coursewareid":2585575847037,"courseWareName":"分数的意义-教案五","resourcetype":2,"courseWareFileId":2585575846667,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture5.hexfuture.net/52649e8e7f8c7e52fd7798eafd1e36fd/分数的意义-教案五.docx?Expires=1704786522&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=YC5aO6mQHOqY%2BS5%2BbdQMjyUahSs%3D","size":20366},{"coursewareid":2585575846560,"courseWareName":"分数的意义-学案","resourcetype":2,"courseWareFileId":2585575846476,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture3.hexfuture.net/5d4dbd55ef436d0b243b9042ab137387/分数的意义-学案二.docx?Expires=1705981425&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=WpSytPCSX83IR%2BNzT%2FjKz%2FaXmSE%3D","size":65561}],"parentChapterId":"0","sequence":1,"child":[],"expend":true},{"coursetemplateId":863323295479,"eBookName":"","eBookId":0,"chapterId":1361504810882,"chapterName":"二 校园艺术节——分数的意义和性质","courseWares":[{"coursewareid":2585910908219,"courseWareName":"第一课时 分数的意义-课件","resourcetype":1,"courseWareFileId":2585910905596,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture3.hexfuture.net/941ba1f7ac5c5319c3984b6c19516ffb8881a7a2/第一课时 分数的意义-课件.pptx?Expires=1713064360&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=Ks7vjrJsYHq7its%2Bbv9MHvQhMnM%3D","size":428637},{"coursewareid":2585910939105,"courseWareName":"第二课时 真分数与假分数-课件","resourcetype":1,"courseWareFileId":2585911314265,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture4.hexfuture.net/f2731407413cb1dec0a1d8bb681a08f95bddf8f6/第二课时 真分数与假分数-课件.pptx?Expires=1713064363&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=9piWy53iBlt4Ipmbq9cdiNmRgQE%3D","size":495122},{"coursewareid":2576983222504,"courseWareName":"分数的意义-课件一","resourcetype":6,"courseWareFileId":2585596937932,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture1.hexfuture.net/ac9ca5f904801bd04011bded35e971a1/分数的意义-课件.pptx?Expires=1692627126&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=YRNIQezPbPp%2F9wShYc8fosUd5FM%3D","size":491582},{"coursewareid":2585575854025,"courseWareName":"分数的意义-课件二","resourcetype":6,"courseWareFileId":2585575854017,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture1.hexfuture.net/cbe6874335e60f38fb1d0689ff5d6254/分数的意义-课件二.pptx?Expires=1706004744&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=I66CpBWIq3a%2Bf8%2F05wpKxfu6P5A%3D","size":922298},{"coursewareid":2585575854006,"courseWareName":"分数的意义-课件三","resourcetype":6,"courseWareFileId":2585596937972,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture5.hexfuture.net/60c71d205c2af8c35dca3e44a2e229e1/分数的意义-课件三.pptx?Expires=1693032349&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=4TzBzrgGR3wKAuokMGFjvm0Jgmc%3D","size":221510},{"coursewareid":2585575853771,"courseWareName":"分数的意义-课件四","resourcetype":6,"courseWareFileId":2585575853721,"filetype":1,"coursewaretype":8,"accessUrl":"https://bucket-hexfuture4.hexfuture.net/ff7011f2efa29dff7ac3f9c90cad7b32/分数的意义-课件四.ppt?Expires=1707142070&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=tejny3qYpTqBEmmQXQp%2F9DTCSdg%3D","size":2054144}],"parentChapterId":"0","sequence":2,"child":[],"expend":true},{"coursetemplateId":863323295479,"eBookName":"","eBookId":0,"chapterId":1361504810886,"chapterName":"三 剪纸中的数学——分数加减法（一）","courseWares":null,"parentChapterId":"0","sequence":3,"child":[],"expend":true},{"coursetemplateId":863323295479,"eBookName":"","eBookId":0,"chapterId":1361504810890,"chapterName":"四 走进军营——方向与位置","courseWares":null,"parentChapterId":"0","sequence":4,"child":[],"expend":true},{"coursetemplateId":863323295479,"eBookName":"","eBookId":0,"chapterId":1361504810894,"chapterName":"五 关注环境——分数加减法（二）","courseWares":null,"parentChapterId":"0","sequence":5,"child":[],"expend":true},{"coursetemplateId":863323295479,"eBookName":"","eBookId":0,"chapterId":1361504810898,"chapterName":"六 爱护眼睛——复式统计图","courseWares":null,"parentChapterId":"0","sequence":6,"child":[],"expend":true},{"coursetemplateId":863323295479,"eBookName":"","eBookId":0,"chapterId":1361504810902,"chapterName":"七 包装盒——长方体和正方体","courseWares":null,"parentChapterId":"0","sequence":7,"child":[],"expend":true},{"coursetemplateId":863323295479,"eBookName":"","eBookId":0,"chapterId":1361504810906,"chapterName":"月考专区","courseWares":null,"parentChapterId":"0","sequence":8,"child":[],"expend":true},{"coursetemplateId":863323295479,"eBookName":"","eBookId":0,"chapterId":1361504810910,"chapterName":"期中专区","courseWares":null,"parentChapterId":"0","sequence":9,"child":[],"expend":true},{"coursetemplateId":863323295479,"eBookName":"","eBookId":0,"chapterId":1361504810914,"chapterName":"期末专区","courseWares":null,"parentChapterId":"0","sequence":10,"child":[],"expend":true},{"coursetemplateId":863323295479,"eBookName":"","eBookId":0,"chapterId":1361504810918,"chapterName":"暑假专区","courseWares":null,"parentChapterId":"0","sequence":11,"child":[],"expend":true},{"coursetemplateId":863323295479,"eBookName":"","eBookId":0,"chapterId":1361504810922,"chapterName":"本册综合","courseWares":null,"parentChapterId":"0","sequence":12,"child":[],"expend":true}]
+
+
+
+
+
+
+
+[
+    {
+        "coursetemplateId": 4294969699458,
+        "eBookName": "一年级下册",
+        "eBookId": 1361504811071,
+        "chapterId": 1361504811098,
+        "chapterName": "六 大海边——100以内数的加减法（二）",
+        "courseWares": [
+            {
+                "coursewareid": 2576985595201,
+                "courseWareName": "下雨了---学看钟表-课件一",
+                "resourcetype": 6,
+                "courseWareFileId": 2585595677499,
+                "filetype": 1,
+                "coursewaretype": 8,
+                "accessUrl": "https://bucket-hexfuture1.hexfuture.net/68c267f0b468da94578d1a0cefdcffa1/下雨了---学看钟表-课件一.pptx?Expires=1719288112&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=MJHkOUclMt%2FGBR5MKj1t2FjBGmE%3D",
+                "size": 177520
+            }
+        ],
+        "parentChapterId": "0",
+        "sequence": 7,
+        "child": [],
+        "expend": true
+    },
+    {
+        "coursetemplateId": 0,
+        "eBookName": "一年级下册",
+        "eBookId": 1361504811071,
+        "chapterId": 1361504811102,
+        "chapterName": "七 看魔术——乘法的初步认识",
+        "courseWares": null,
+        "parentChapterId": "0",
+        "sequence": 8,
+        "child": [],
+        "expend": true
+    },
+    {
+        "coursetemplateId": 0,
+        "eBookName": "一年级下册",
+        "eBookId": 1361504811071,
+        "chapterId": 1361504811118,
+        "chapterName": "十 儿童乐园——总复习",
+        "courseWares": null,
+        "parentChapterId": "0",
+        "sequence": 12,
+        "child": [],
+        "expend": true
+    },
+    {
+        "coursetemplateId": 0,
+        "eBookName": "一年级下册",
+        "eBookId": 1361504811071,
+        "chapterId": 1361504811090,
+        "chapterName": "四 绿色行动——100以内数的加减法（一）",
+        "courseWares": null,
+        "parentChapterId": "0",
+        "sequence": 5,
+        "child": [],
+        "expend": true
+    },
+    {
+        "coursetemplateId": 0,
+        "eBookName": "一年级下册",
+        "eBookId": 1361504811071,
+        "chapterId": 1361504811082,
+        "chapterName": "三 牧童——认识图形",
+        "courseWares": null,
+        "parentChapterId": "0",
+        "sequence": 3,
+        "child": [],
+        "expend": true
+    },
+    {
+        "coursetemplateId": 0,
+        "eBookName": "一年级下册",
+        "eBookId": 1361504811071,
+        "chapterId": 1361504811110,
+        "chapterName": "我们身上的“小尺子”",
+        "courseWares": [
+            {
+                "coursewareid": 2576985578036,
+                "sequence": 0,
+                "courseWareName": "我们身上的“小尺子”-课件",
+                "courseWareFileId": 2585595711697,
+                "accessUrl": "https://bucket-hexfuture1.hexfuture.net/7364401c521831fdd8f7343a05adfff8/我们身上的“小尺子”-课件.pptx?Expires=1715646005&OSSAccessKeyId=FDqNygK1Ac2KrCAU&Signature=%2FOiKF%2F4hTvESg22T2S60nDYHwfs%3D",
+                "size": 2945124,
+                "filetype": 1,
+                "coursewaretype": 8,
+                "resourcetype": 6,
+                "createtime": "",
+                "lastupdatetime": ""
+            }
+        ],
+        "parentChapterId": "0",
+        "sequence": 10,
+        "child": [],
+        "expend": true
+    },
+    {
+        "coursetemplateId": 0,
+        "eBookName": "一年级下册",
+        "eBookId": 1361504811071,
+        "chapterId": 1361504811138,
+        "chapterName": "本册综合",
+        "courseWares": null,
+        "parentChapterId": "0",
+        "sequence": 17,
+        "child": [],
+        "expend": true
+    },
+    {
+        "coursetemplateId": 0,
+        "eBookName": "一年级下册",
+        "eBookId": 1361504811071,
+        "chapterId": 1361504811078,
+        "chapterName": "二 丰收了——100以内数的认识",
+        "courseWares": null,
+        "parentChapterId": "0",
+        "sequence": 2,
+        "child": [],
+        "expend": true
+    },
+    {
+        "coursetemplateId": 0,
+        "eBookName": "一年级下册",
+        "eBookId": 1361504811071,
+        "chapterId": 1361504811094,
+        "chapterName": "五 小小存钱罐——人民币的认识",
+        "courseWares": null,
+        "parentChapterId": "0",
+        "sequence": 6,
+        "child": [],
+        "expend": true
+    },
+    {
+        "coursetemplateId": 0,
+        "eBookName": "一年级下册",
+        "eBookId": 1361504811071,
+        "chapterId": 1361504811106,
+        "chapterName": "八 阿福的新衣——厘米、米的认识",
+        "courseWares": null,
+        "parentChapterId": "0",
+        "sequence": 9,
+        "child": [],
+        "expend": true
+    },
+    {
+        "coursetemplateId": 0,
+        "eBookName": "一年级下册",
+        "eBookId": 1361504811071,
+        "chapterId": 1361504811114,
+        "chapterName": "九 我换牙了——统计",
+        "courseWares": null,
+        "parentChapterId": "0",
+        "sequence": 11,
+        "child": [],
+        "expend": true
+    },
+    {
+        "coursetemplateId": 0,
+        "eBookName": "一年级下册",
+        "eBookId": 1361504811071,
+        "chapterId": 1361504811126,
+        "chapterName": "期中专区",
+        "courseWares": null,
+        "parentChapterId": "0",
+        "sequence": 14,
+        "child": [],
+        "expend": true
+    },
+    {
+        "coursetemplateId": 0,
+        "eBookName": "一年级下册",
+        "eBookId": 1361504811071,
+        "chapterId": 1361504811130,
+        "chapterName": "期末专区",
+        "courseWares": null,
+        "parentChapterId": "0",
+        "sequence": 15,
+        "child": [],
+        "expend": true
+    },
+    {
+        "coursetemplateId": 0,
+        "eBookName": "一年级下册",
+        "eBookId": 1361504811071,
+        "chapterId": 1361504811134,
+        "chapterName": "暑假专区",
+        "courseWares": null,
+        "parentChapterId": "0",
+        "sequence": 16,
+        "child": [],
+        "expend": true
+    },
+    {
+        "coursetemplateId": 0,
+        "eBookName": "一年级下册",
+        "eBookId": 1361504811071,
+        "chapterId": 1361504811074,
+        "chapterName": "一 下雨了——认识钟表",
+        "courseWares": null,
+        "parentChapterId": "0",
+        "sequence": 1,
+        "child": [],
+        "expend": true
+    },
+    {
+        "coursetemplateId": 0,
+        "eBookName": "一年级下册",
+        "eBookId": 1361504811071,
+        "chapterId": 1361504811086,
+        "chapterName": "趣味拼摆",
+        "courseWares": null,
+        "parentChapterId": "0",
+        "sequence": 4,
+        "child": [],
+        "expend": true
+    },
+    {
+        "coursetemplateId": 0,
+        "eBookName": "一年级下册",
+        "eBookId": 1361504811071,
+        "chapterId": 1361504811122,
+        "chapterName": "月考专区",
+        "courseWares": null,
+        "parentChapterId": "0",
+        "sequence": 13,
+        "child": [],
+        "expend": true
+    }
+]

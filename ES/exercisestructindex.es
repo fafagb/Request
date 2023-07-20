@@ -435,7 +435,7 @@ post exercisestructindex/_update_by_query
 
 
 
-
+{"from":1,"size":100,"query":{"bool":{"must":[{"match":{"coursetemplateId":863327811131}},{"match":{"isvalid":true}}]}}}
 
 
 

@@ -49,3 +49,27 @@ Post sysctechapterindex/_delete_by_query?pretty
   }
 //   
 }
+
+
+Post sysctechapterindex/_delete_by_query?pretty
+{
+  
+    "query":{
+        "bool":{
+            "must":[
+                {
+                    "match":{
+                        "coursetemplateId": 863331724564
+                    }
+                },
+                {
+                    "match":{
+                        "ebookid": 1374390096076
+                    }
+                }
+            ]
+     
+        }
+    }
+}
+

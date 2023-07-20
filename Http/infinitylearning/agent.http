@@ -1,0 +1,7 @@
+POST https://ai.myi.cn/api/AgentBackend/Login
+Content-Type: application/json
+
+{
+  "loginAccount": "13901255328",
+  "pwd": "81824768b21d2d2aa08df934533dac996a0e7b27532d9e36e8f3f4df58a84bef"
+}
